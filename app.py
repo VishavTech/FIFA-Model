@@ -25,7 +25,7 @@ import joblib
 from src.predict import predict_match_probabilities, form_groups, simulate_group_stage, advance_teams_to_knockout, simulate_knockout_stage
 
 app = Flask(__name__, template_folder='templates')
-PORT = 3000
+PORT = int(os.environ.get("PORT", 3000))
 
 # Helper to load processed team statistics
 def load_processed_teams():
