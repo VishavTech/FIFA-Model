@@ -17,6 +17,13 @@ Date: 2026-06-26
 
 import os
 import sys
+from fastapi import FastAPI
+
+app = FastAPI()
+
+@app.get("/")
+def read_root():
+    return {"message": "FIFA Predictor API is running"}
 
 def run_pipeline():
     print("==============================================================")
