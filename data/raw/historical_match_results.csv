@@ -1,0 +1,1261 @@
+match_id,team_a,team_b,team_a_goals,team_b_goals,year,tournament
+1,Qatar,Morocco,0,4,2018,Qualifiers
+2,Ghana,Ecuador,0,2,2018,Qualifiers
+3,Japan,Peru,3,1,2018,Qualifiers
+4,England,New Zealand,5,2,2018,Qualifiers
+5,Mexico,Denmark,2,1,2018,Friendly
+6,England,Morocco,1,1,2018,Qualifiers
+7,Mexico,Egypt,0,1,2018,Qualifiers
+8,Germany,Ivory Coast,3,0,2018,Continental Cup
+9,England,Netherlands,1,0,2018,Friendly
+10,Iraq,Argentina,0,4,2018,World Cup
+11,Tunisia,Belgium,0,2,2018,Continental Cup
+12,Morocco,Australia,1,0,2018,Friendly
+13,Egypt,Algeria,1,0,2018,Friendly
+14,Chile,Turkey,0,1,2018,Continental Cup
+15,Denmark,Switzerland,1,2,2018,Qualifiers
+16,Mexico,Belgium,0,1,2018,Qualifiers
+17,Sweden,Ghana,2,1,2018,Friendly
+18,Uzbekistan,Cameroon,1,1,2018,Friendly
+19,South Korea,Uruguay,0,2,2018,Qualifiers
+20,Belgium,Netherlands,4,2,2018,Friendly
+21,Germany,Japan,0,0,2018,Qualifiers
+22,Chile,Portugal,0,5,2018,Friendly
+23,Canada,Tunisia,1,2,2018,Qualifiers
+24,Qatar,Peru,2,1,2018,Qualifiers
+25,Croatia,Japan,0,2,2018,World Cup
+26,Germany,Tunisia,3,0,2018,Friendly
+27,Chile,Saudi Arabia,0,1,2018,Qualifiers
+28,Sweden,Costa Rica,2,1,2018,Continental Cup
+29,Costa Rica,Austria,0,1,2018,Qualifiers
+30,Denmark,Austria,4,0,2018,Continental Cup
+31,Ukraine,Algeria,1,0,2018,Friendly
+32,Mexico,Denmark,1,2,2018,Continental Cup
+33,Morocco,Mexico,5,1,2018,Continental Cup
+34,England,Morocco,0,1,2018,Qualifiers
+35,Ghana,Switzerland,0,3,2018,Continental Cup
+36,Ghana,Qatar,2,0,2018,Friendly
+37,Brazil,Ukraine,2,1,2018,Continental Cup
+38,Mexico,Poland,3,2,2018,Qualifiers
+39,Germany,Qatar,3,0,2018,Friendly
+40,Costa Rica,Austria,0,4,2018,Continental Cup
+41,Austria,Costa Rica,2,1,2018,World Cup
+42,Panama,USA,1,1,2018,Friendly
+43,Netherlands,Mexico,1,0,2018,Qualifiers
+44,Germany,France,2,3,2018,Continental Cup
+45,USA,England,1,0,2018,Continental Cup
+46,Costa Rica,Nigeria,1,1,2018,Continental Cup
+47,Portugal,Nigeria,2,1,2018,Qualifiers
+48,Iraq,Poland,0,5,2018,Continental Cup
+49,Iran,Costa Rica,3,0,2018,Friendly
+50,Iraq,Spain,0,4,2018,Qualifiers
+51,Senegal,Mexico,3,2,2018,World Cup
+52,Uzbekistan,Spain,0,0,2018,World Cup
+53,Japan,Mexico,0,2,2018,Friendly
+54,Ghana,Netherlands,0,5,2018,Qualifiers
+55,Uruguay,New Zealand,3,1,2018,Friendly
+56,Chile,Switzerland,1,0,2018,Continental Cup
+57,Paraguay,Mexico,1,1,2018,Continental Cup
+58,Ecuador,Qatar,1,0,2018,Continental Cup
+59,Ivory Coast,USA,1,6,2018,Continental Cup
+60,Chile,Switzerland,0,2,2018,Qualifiers
+61,Ecuador,Turkey,1,3,2018,Qualifiers
+62,USA,Algeria,0,1,2018,Continental Cup
+63,Chile,Jamaica,2,0,2018,Friendly
+64,Panama,Peru,2,1,2018,Friendly
+65,Germany,Cameroon,0,1,2018,Friendly
+66,Ivory Coast,Uruguay,0,1,2018,Qualifiers
+67,Saudi Arabia,Qatar,3,3,2018,World Cup
+68,Australia,Tunisia,2,1,2018,Qualifiers
+69,Morocco,Cameroon,2,1,2018,Continental Cup
+70,Egypt,England,1,2,2018,Friendly
+71,Canada,Paraguay,1,0,2018,Friendly
+72,Uruguay,Ukraine,3,2,2018,Continental Cup
+73,Canada,Argentina,0,1,2018,Friendly
+74,Switzerland,Iran,4,1,2018,Continental Cup
+75,Iran,Qatar,2,0,2018,World Cup
+76,Panama,Saudi Arabia,1,1,2018,Friendly
+77,Belgium,Uruguay,1,1,2018,Friendly
+78,South Korea,Ghana,2,0,2018,Friendly
+79,Uzbekistan,Ukraine,0,1,2018,Qualifiers
+80,USA,Panama,0,0,2018,Friendly
+81,Canada,England,1,3,2018,Friendly
+82,Senegal,Paraguay,1,0,2018,Continental Cup
+83,Croatia,Tunisia,3,0,2018,Qualifiers
+84,Australia,Ivory Coast,2,1,2018,Qualifiers
+85,Netherlands,Spain,1,2,2018,Qualifiers
+86,Denmark,Ivory Coast,3,0,2018,Friendly
+87,Peru,Ghana,4,2,2018,Qualifiers
+88,Ukraine,Saudi Arabia,4,0,2018,Friendly
+89,Mexico,New Zealand,5,0,2018,Qualifiers
+90,Chile,Iran,1,1,2018,Qualifiers
+91,Peru,Morocco,0,1,2018,World Cup
+92,Nigeria,Chile,3,0,2018,Continental Cup
+93,Germany,Australia,2,0,2018,Qualifiers
+94,Canada,Belgium,0,0,2018,Qualifiers
+95,Croatia,Ivory Coast,4,0,2018,Friendly
+96,Croatia,Qatar,4,0,2018,Friendly
+97,Denmark,Paraguay,2,0,2018,Qualifiers
+98,Peru,USA,0,4,2018,Continental Cup
+99,Uzbekistan,Qatar,2,1,2018,World Cup
+100,Algeria,Colombia,0,5,2018,Qualifiers
+101,Jamaica,Switzerland,0,3,2018,Qualifiers
+102,Germany,Belgium,0,1,2018,Qualifiers
+103,Saudi Arabia,Iran,0,4,2018,Qualifiers
+104,New Zealand,Poland,1,4,2018,Friendly
+105,Paraguay,Algeria,0,4,2018,Friendly
+106,Cameroon,Croatia,1,3,2018,Qualifiers
+107,Germany,Austria,2,1,2018,Continental Cup
+108,Belgium,Saudi Arabia,2,0,2018,World Cup
+109,Ghana,Costa Rica,1,1,2018,Qualifiers
+110,South Korea,Austria,2,4,2018,World Cup
+111,Mexico,Costa Rica,2,0,2018,World Cup
+112,Germany,Mexico,3,0,2018,Friendly
+113,Turkey,Colombia,0,3,2018,Friendly
+114,Australia,Paraguay,1,0,2018,Qualifiers
+115,Ghana,Poland,0,0,2018,Qualifiers
+116,Nigeria,Cameroon,2,0,2018,Qualifiers
+117,Ivory Coast,Netherlands,2,1,2018,World Cup
+118,Ghana,Turkey,0,2,2018,Qualifiers
+119,New Zealand,Ecuador,1,2,2018,Qualifiers
+120,Austria,Poland,1,1,2018,Friendly
+121,Panama,Costa Rica,4,2,2018,Qualifiers
+122,Chile,Iran,0,3,2018,World Cup
+123,Colombia,Jamaica,4,1,2018,World Cup
+124,New Zealand,Belgium,1,5,2018,Continental Cup
+125,Croatia,Switzerland,2,1,2018,Friendly
+126,Australia,Jamaica,4,0,2018,Qualifiers
+127,England,Spain,1,1,2018,Continental Cup
+128,Sweden,Cameroon,3,1,2018,Qualifiers
+129,Paraguay,England,0,3,2018,World Cup
+130,Chile,Peru,3,3,2018,Qualifiers
+131,Morocco,Sweden,3,1,2018,Friendly
+132,Argentina,Croatia,2,1,2018,Continental Cup
+133,Senegal,Nigeria,1,0,2018,Qualifiers
+134,Ghana,Netherlands,1,4,2018,Qualifiers
+135,Switzerland,Iran,2,0,2018,Continental Cup
+136,Italy,Uzbekistan,3,1,2018,Qualifiers
+137,Morocco,Paraguay,3,1,2018,Qualifiers
+138,Ecuador,France,0,1,2018,Qualifiers
+139,Saudi Arabia,Ecuador,1,1,2018,Continental Cup
+140,France,Iran,3,0,2018,Qualifiers
+141,Uruguay,Italy,0,1,2019,Qualifiers
+142,France,Canada,2,1,2019,Continental Cup
+143,Belgium,Panama,2,1,2019,Qualifiers
+144,France,USA,3,0,2019,World Cup
+145,Panama,New Zealand,4,2,2019,Continental Cup
+146,Croatia,Cameroon,2,0,2019,Continental Cup
+147,South Korea,Turkey,0,1,2019,World Cup
+148,Saudi Arabia,Morocco,0,4,2019,Friendly
+149,Australia,Poland,1,2,2019,Friendly
+150,Italy,Germany,1,4,2019,World Cup
+151,Paraguay,Spain,0,2,2019,Friendly
+152,Brazil,Australia,1,0,2019,Qualifiers
+153,Brazil,Belgium,1,1,2019,Qualifiers
+154,USA,Chile,2,0,2019,Continental Cup
+155,Portugal,Spain,2,2,2019,Qualifiers
+156,Argentina,Colombia,1,0,2019,Qualifiers
+157,Egypt,Mexico,1,5,2019,Qualifiers
+158,Switzerland,Austria,2,0,2019,Qualifiers
+159,France,Italy,1,1,2019,Continental Cup
+160,Uruguay,Nigeria,1,0,2019,Qualifiers
+161,Panama,Uruguay,1,2,2019,Qualifiers
+162,Morocco,Australia,2,0,2019,Friendly
+163,Uruguay,Croatia,2,1,2019,Friendly
+164,Chile,Australia,0,4,2019,Continental Cup
+165,Ukraine,New Zealand,3,0,2019,Qualifiers
+166,New Zealand,Nigeria,0,1,2019,World Cup
+167,Saudi Arabia,Ecuador,1,1,2019,Qualifiers
+168,Morocco,Brazil,0,3,2019,World Cup
+169,Egypt,South Korea,0,1,2019,Qualifiers
+170,Qatar,Iran,0,1,2019,World Cup
+171,Saudi Arabia,Ivory Coast,1,1,2019,Friendly
+172,Ivory Coast,Mexico,1,1,2019,Friendly
+173,Iraq,Canada,1,1,2019,World Cup
+174,New Zealand,England,1,4,2019,Qualifiers
+175,France,Senegal,3,1,2019,Qualifiers
+176,Paraguay,South Korea,0,3,2019,Friendly
+177,Chile,Croatia,0,0,2019,World Cup
+178,Paraguay,Australia,0,2,2019,Friendly
+179,Brazil,Costa Rica,3,1,2019,Friendly
+180,Canada,Uruguay,0,1,2019,Friendly
+181,Chile,Paraguay,3,0,2019,Qualifiers
+182,Iran,Italy,0,2,2019,Qualifiers
+183,Iraq,Saudi Arabia,1,3,2019,Continental Cup
+184,Morocco,Poland,2,2,2019,Qualifiers
+185,Tunisia,Spain,1,1,2019,Continental Cup
+186,Nigeria,South Korea,0,0,2019,Qualifiers
+187,Paraguay,Ghana,2,5,2019,World Cup
+188,Ecuador,Costa Rica,2,1,2019,Friendly
+189,Canada,Argentina,1,4,2019,Friendly
+190,South Korea,Uzbekistan,4,0,2019,World Cup
+191,Tunisia,Qatar,3,1,2019,Continental Cup
+192,Australia,Canada,0,0,2019,World Cup
+193,Spain,Ukraine,1,0,2019,Friendly
+194,Portugal,South Korea,3,0,2019,Friendly
+195,Iran,USA,3,1,2019,World Cup
+196,Germany,Canada,3,2,2019,Qualifiers
+197,Iraq,Croatia,1,2,2019,Qualifiers
+198,Ivory Coast,Uzbekistan,1,1,2019,Qualifiers
+199,USA,Italy,1,1,2019,Qualifiers
+200,Argentina,Costa Rica,5,1,2019,Friendly
+201,Paraguay,Tunisia,1,3,2019,Friendly
+202,Sweden,Ghana,5,0,2019,Friendly
+203,Senegal,Panama,3,0,2019,World Cup
+204,Japan,Belgium,2,2,2019,Friendly
+205,Denmark,Portugal,0,1,2019,Qualifiers
+206,Ukraine,Costa Rica,1,0,2019,Qualifiers
+207,Chile,Croatia,0,2,2019,Friendly
+208,Belgium,Turkey,2,0,2019,Friendly
+209,Uruguay,Ukraine,2,2,2019,Friendly
+210,Ecuador,Germany,0,2,2019,Friendly
+211,South Korea,Belgium,3,1,2019,Qualifiers
+212,Canada,Poland,3,5,2019,Qualifiers
+213,Iraq,England,1,4,2019,Friendly
+214,Morocco,Ecuador,1,0,2019,Qualifiers
+215,USA,Jamaica,2,1,2019,Friendly
+216,Egypt,Peru,3,0,2019,Friendly
+217,Cameroon,Brazil,0,1,2019,Continental Cup
+218,Austria,Algeria,0,1,2019,Continental Cup
+219,Ecuador,Mexico,0,1,2019,Friendly
+220,Nigeria,Denmark,0,3,2019,Qualifiers
+221,Egypt,Chile,1,2,2019,Continental Cup
+222,Qatar,Uruguay,1,1,2019,Qualifiers
+223,England,Brazil,1,0,2019,Continental Cup
+224,Jamaica,Chile,0,1,2019,Qualifiers
+225,Ghana,Morocco,0,5,2019,Continental Cup
+226,Austria,Turkey,0,1,2019,Qualifiers
+227,Poland,Paraguay,4,0,2019,Qualifiers
+228,Cameroon,Saudi Arabia,2,0,2019,Qualifiers
+229,Austria,Saudi Arabia,3,1,2019,World Cup
+230,Egypt,Senegal,1,1,2019,Continental Cup
+231,Germany,Canada,7,0,2019,Qualifiers
+232,Ivory Coast,Cameroon,1,2,2019,Qualifiers
+233,Algeria,Panama,1,1,2019,Continental Cup
+234,Austria,Germany,0,2,2019,Friendly
+235,Panama,Paraguay,2,0,2019,Friendly
+236,Costa Rica,Spain,3,3,2019,Friendly
+237,Paraguay,Jamaica,3,0,2019,Friendly
+238,Senegal,Switzerland,0,0,2019,Continental Cup
+239,Mexico,Senegal,2,1,2019,Qualifiers
+240,Nigeria,Poland,3,1,2019,Qualifiers
+241,New Zealand,Nigeria,0,1,2019,Qualifiers
+242,Qatar,England,0,5,2019,Qualifiers
+243,Mexico,Croatia,2,2,2019,World Cup
+244,Argentina,France,0,1,2019,Qualifiers
+245,Denmark,Tunisia,2,0,2019,Friendly
+246,Germany,Belgium,0,1,2019,World Cup
+247,Paraguay,Turkey,0,3,2019,Qualifiers
+248,Morocco,Ecuador,3,0,2019,Qualifiers
+249,Japan,Chile,2,2,2019,Qualifiers
+250,USA,Brazil,0,1,2019,Continental Cup
+251,Brazil,Ghana,2,0,2019,Continental Cup
+252,Austria,Ghana,3,0,2019,Friendly
+253,Egypt,Spain,0,3,2019,Continental Cup
+254,Iran,Jamaica,0,0,2019,World Cup
+255,Argentina,Nigeria,2,0,2019,Continental Cup
+256,Jamaica,New Zealand,2,1,2019,Friendly
+257,USA,Australia,0,1,2019,Continental Cup
+258,Jamaica,Germany,2,5,2019,Continental Cup
+259,Morocco,Saudi Arabia,3,1,2019,Qualifiers
+260,Australia,Poland,0,1,2019,Qualifiers
+261,Croatia,Costa Rica,0,0,2019,Continental Cup
+262,Ivory Coast,Croatia,0,2,2019,World Cup
+263,Germany,USA,0,0,2019,Continental Cup
+264,Uruguay,Iran,3,0,2019,Qualifiers
+265,Costa Rica,Jamaica,1,0,2019,Continental Cup
+266,Netherlands,Paraguay,5,1,2019,Friendly
+267,Spain,Senegal,5,0,2019,Qualifiers
+268,Switzerland,Turkey,2,1,2019,Qualifiers
+269,Japan,Ukraine,4,1,2019,Qualifiers
+270,Switzerland,Paraguay,1,0,2019,Continental Cup
+271,Egypt,Germany,0,3,2019,Qualifiers
+272,Japan,England,1,0,2019,Friendly
+273,USA,Colombia,2,1,2019,Continental Cup
+274,Austria,Italy,1,1,2019,Friendly
+275,Uzbekistan,Portugal,0,7,2019,Qualifiers
+276,Panama,Netherlands,0,3,2019,Friendly
+277,Egypt,Morocco,1,1,2019,Friendly
+278,Tunisia,Italy,0,3,2019,Qualifiers
+279,England,Egypt,1,0,2019,Qualifiers
+280,Brazil,France,1,3,2019,Qualifiers
+281,Belgium,Turkey,1,2,2020,Qualifiers
+282,Ivory Coast,Nigeria,0,0,2020,World Cup
+283,Canada,Ghana,3,0,2020,Qualifiers
+284,Canada,Egypt,0,1,2020,Qualifiers
+285,Brazil,Austria,3,0,2020,Continental Cup
+286,Argentina,Uzbekistan,2,1,2020,Continental Cup
+287,Canada,Brazil,1,4,2020,Qualifiers
+288,Italy,Japan,1,2,2020,Friendly
+289,Ecuador,Paraguay,5,1,2020,Friendly
+290,Ghana,Ivory Coast,0,0,2020,Qualifiers
+291,Ukraine,Paraguay,2,1,2020,Qualifiers
+292,Belgium,Turkey,0,1,2020,Qualifiers
+293,Brazil,Algeria,1,0,2020,Friendly
+294,France,Australia,4,1,2020,Qualifiers
+295,Italy,Brazil,0,1,2020,World Cup
+296,Croatia,Canada,2,0,2020,Qualifiers
+297,Iran,Ghana,2,0,2020,Friendly
+298,Chile,Croatia,0,2,2020,Friendly
+299,Italy,Japan,0,2,2020,Friendly
+300,Chile,South Korea,0,0,2020,Friendly
+301,Egypt,Jamaica,0,1,2020,Friendly
+302,Sweden,Peru,3,0,2020,World Cup
+303,Switzerland,Chile,2,3,2020,Continental Cup
+304,Denmark,Belgium,2,2,2020,Continental Cup
+305,Sweden,Italy,0,1,2020,Continental Cup
+306,Chile,Austria,0,4,2020,Qualifiers
+307,Argentina,Netherlands,0,1,2020,Qualifiers
+308,Jamaica,Australia,0,3,2020,Qualifiers
+309,Ivory Coast,Paraguay,1,0,2020,Friendly
+310,Chile,Cameroon,0,1,2020,Qualifiers
+311,Switzerland,Peru,1,1,2020,Friendly
+312,Iraq,Australia,0,2,2020,World Cup
+313,Qatar,Paraguay,0,0,2020,Friendly
+314,Chile,Ecuador,1,1,2020,Continental Cup
+315,Jamaica,Qatar,0,0,2020,Qualifiers
+316,Uruguay,Peru,3,0,2020,Qualifiers
+317,Uruguay,Ghana,4,0,2020,Qualifiers
+318,Tunisia,Australia,1,0,2020,Friendly
+319,New Zealand,Sweden,0,2,2020,Qualifiers
+320,Colombia,Senegal,1,0,2020,World Cup
+321,Switzerland,Colombia,1,0,2020,Qualifiers
+322,France,Iran,1,0,2020,Friendly
+323,Peru,Tunisia,0,1,2020,World Cup
+324,Argentina,England,0,1,2020,Friendly
+325,Peru,Netherlands,1,3,2020,Friendly
+326,England,Iraq,2,0,2020,Qualifiers
+327,Mexico,Denmark,0,3,2020,Friendly
+328,Spain,Panama,1,0,2020,Friendly
+329,Uzbekistan,Portugal,1,5,2020,Continental Cup
+330,Poland,Austria,2,4,2020,World Cup
+331,Iraq,Paraguay,4,2,2020,Qualifiers
+332,Argentina,Uruguay,0,1,2020,Qualifiers
+333,Ivory Coast,Argentina,0,3,2020,Qualifiers
+334,Netherlands,Paraguay,1,1,2020,Qualifiers
+335,Japan,England,0,5,2020,Continental Cup
+336,Panama,Jamaica,1,1,2020,Friendly
+337,Nigeria,Brazil,0,0,2020,Qualifiers
+338,Mexico,Uzbekistan,2,0,2020,Qualifiers
+339,Brazil,Ecuador,2,1,2020,Friendly
+340,Senegal,Ivory Coast,0,1,2020,Friendly
+341,Argentina,Uzbekistan,2,1,2020,Continental Cup
+342,Chile,Uzbekistan,0,0,2020,Friendly
+343,Mexico,USA,1,1,2020,Qualifiers
+344,Canada,Italy,1,2,2020,Friendly
+345,Cameroon,Egypt,0,4,2020,Friendly
+346,Austria,Ukraine,1,3,2020,Friendly
+347,Spain,Panama,4,1,2020,Friendly
+348,Australia,Switzerland,0,6,2020,Continental Cup
+349,Chile,Croatia,1,3,2020,Qualifiers
+350,Peru,Ghana,2,0,2020,Friendly
+351,Germany,Canada,2,0,2020,Qualifiers
+352,Iran,Japan,2,1,2020,Continental Cup
+353,Paraguay,Ghana,1,1,2020,World Cup
+354,Iran,Panama,3,1,2020,Qualifiers
+355,Denmark,Belgium,1,4,2020,Continental Cup
+356,New Zealand,Saudi Arabia,1,2,2020,Friendly
+357,Uruguay,Mexico,2,1,2020,Friendly
+358,Panama,South Korea,1,3,2020,Friendly
+359,Cameroon,Colombia,0,4,2020,World Cup
+360,Egypt,Poland,1,0,2020,Qualifiers
+361,Algeria,Canada,1,1,2020,Qualifiers
+362,Canada,Austria,0,4,2020,Qualifiers
+363,Iran,Costa Rica,1,1,2020,Friendly
+364,Senegal,Colombia,0,1,2020,Qualifiers
+365,Egypt,Panama,4,0,2020,Qualifiers
+366,Algeria,New Zealand,5,1,2020,Friendly
+367,Netherlands,Sweden,3,0,2020,Continental Cup
+368,Nigeria,Qatar,1,0,2020,Friendly
+369,Chile,Turkey,0,1,2020,Continental Cup
+370,Panama,Ivory Coast,3,1,2020,World Cup
+371,Costa Rica,Mexico,1,3,2020,Qualifiers
+372,Austria,Chile,2,0,2020,Qualifiers
+373,Ukraine,Panama,4,1,2020,Continental Cup
+374,Saudi Arabia,Japan,2,2,2020,Continental Cup
+375,Tunisia,Japan,0,3,2020,Qualifiers
+376,England,Colombia,3,0,2020,Friendly
+377,Senegal,Germany,0,3,2020,Continental Cup
+378,Ukraine,Uzbekistan,2,1,2020,Continental Cup
+379,Senegal,Italy,0,2,2020,Friendly
+380,Portugal,Austria,1,2,2020,Continental Cup
+381,Sweden,USA,0,0,2020,Qualifiers
+382,Cameroon,Senegal,0,4,2020,Qualifiers
+383,New Zealand,Paraguay,0,1,2020,Qualifiers
+384,Cameroon,Spain,5,3,2020,Continental Cup
+385,Ivory Coast,Germany,0,2,2020,Qualifiers
+386,Ivory Coast,Colombia,1,6,2020,Continental Cup
+387,Iran,Turkey,1,1,2020,Continental Cup
+388,Algeria,Canada,1,2,2020,Continental Cup
+389,Colombia,Spain,0,1,2020,Continental Cup
+390,Egypt,Croatia,0,5,2020,Friendly
+391,Spain,Qatar,3,0,2020,Qualifiers
+392,Senegal,Peru,4,1,2020,Continental Cup
+393,Senegal,Peru,1,0,2020,Friendly
+394,Chile,Ivory Coast,0,4,2020,World Cup
+395,Costa Rica,Egypt,1,3,2020,Continental Cup
+396,Germany,Panama,2,0,2020,Friendly
+397,Morocco,Costa Rica,2,0,2020,Friendly
+398,Tunisia,Austria,0,2,2020,Friendly
+399,Argentina,USA,3,0,2020,Qualifiers
+400,Peru,Denmark,1,3,2020,World Cup
+401,USA,Colombia,1,0,2020,Friendly
+402,Portugal,Senegal,2,0,2020,Qualifiers
+403,Spain,Croatia,3,0,2020,Friendly
+404,Netherlands,Egypt,1,1,2020,Qualifiers
+405,Austria,Brazil,0,1,2020,Qualifiers
+406,Turkey,Australia,1,0,2020,Friendly
+407,Ukraine,Tunisia,0,0,2020,Continental Cup
+408,Portugal,Peru,3,0,2020,Friendly
+409,Colombia,Ivory Coast,7,0,2020,Continental Cup
+410,Austria,Paraguay,1,0,2020,Friendly
+411,Peru,Brazil,0,2,2020,Qualifiers
+412,Egypt,Qatar,3,2,2020,Qualifiers
+413,New Zealand,Cameroon,1,1,2020,Friendly
+414,Peru,France,0,3,2020,Friendly
+415,Saudi Arabia,Uruguay,0,3,2020,Friendly
+416,USA,Nigeria,2,2,2020,Friendly
+417,Ukraine,Panama,2,1,2020,Qualifiers
+418,Qatar,Colombia,0,3,2020,Qualifiers
+419,Cameroon,Germany,2,3,2020,Qualifiers
+420,Sweden,Poland,2,4,2020,Qualifiers
+421,Switzerland,Poland,2,0,2021,Continental Cup
+422,Jamaica,Turkey,2,4,2021,Qualifiers
+423,Switzerland,Panama,2,0,2021,Friendly
+424,Ivory Coast,Ghana,2,1,2021,Continental Cup
+425,Chile,Jamaica,1,2,2021,Qualifiers
+426,Belgium,Uzbekistan,1,1,2021,Qualifiers
+427,Cameroon,Nigeria,1,1,2021,Continental Cup
+428,Cameroon,Sweden,0,1,2021,Continental Cup
+429,Canada,Costa Rica,4,2,2021,Qualifiers
+430,Croatia,Sweden,2,0,2021,World Cup
+431,Austria,Nigeria,0,0,2021,Qualifiers
+432,Argentina,Morocco,5,0,2021,Friendly
+433,Mexico,Nigeria,2,2,2021,Continental Cup
+434,USA,Argentina,0,2,2021,Friendly
+435,Belgium,Tunisia,2,1,2021,World Cup
+436,Italy,Ivory Coast,2,0,2021,Friendly
+437,Colombia,Iraq,3,0,2021,Qualifiers
+438,Cameroon,Spain,0,4,2021,Qualifiers
+439,England,Mexico,3,2,2021,Qualifiers
+440,France,Poland,5,0,2021,Qualifiers
+441,Iran,Germany,0,3,2021,Friendly
+442,Nigeria,Portugal,1,2,2021,Friendly
+443,Sweden,Uruguay,0,3,2021,Friendly
+444,Ecuador,South Korea,0,1,2021,Qualifiers
+445,Switzerland,Costa Rica,2,1,2021,Friendly
+446,Ivory Coast,Croatia,1,0,2021,Continental Cup
+447,England,Portugal,1,1,2021,Qualifiers
+448,Egypt,Tunisia,1,0,2021,World Cup
+449,Spain,Chile,2,0,2021,Continental Cup
+450,Uzbekistan,Peru,1,1,2021,Friendly
+451,South Korea,Nigeria,3,1,2021,Continental Cup
+452,Uzbekistan,Portugal,1,2,2021,Qualifiers
+453,Panama,Brazil,0,2,2021,Qualifiers
+454,Japan,Colombia,0,1,2021,World Cup
+455,Austria,England,0,4,2021,Qualifiers
+456,Nigeria,Mexico,1,1,2021,Qualifiers
+457,Panama,Germany,1,4,2021,Continental Cup
+458,Ivory Coast,Croatia,0,3,2021,Continental Cup
+459,Sweden,Austria,1,0,2021,Friendly
+460,Croatia,Denmark,0,0,2021,Friendly
+461,Colombia,Ecuador,1,0,2021,Continental Cup
+462,Iran,Cameroon,2,1,2021,World Cup
+463,England,Canada,4,0,2021,Friendly
+464,Nigeria,Cameroon,1,0,2021,World Cup
+465,Poland,Iran,3,3,2021,Qualifiers
+466,Ecuador,Argentina,0,3,2021,World Cup
+467,South Korea,France,0,2,2021,World Cup
+468,Peru,Portugal,0,1,2021,Friendly
+469,Poland,Italy,2,2,2021,Qualifiers
+470,Portugal,Saudi Arabia,1,0,2021,Continental Cup
+471,Egypt,Qatar,0,1,2021,Qualifiers
+472,Australia,Peru,1,0,2021,Continental Cup
+473,USA,Switzerland,1,1,2021,Friendly
+474,Senegal,Argentina,1,3,2021,Friendly
+475,South Korea,Paraguay,4,1,2021,World Cup
+476,Qatar,New Zealand,1,2,2021,Qualifiers
+477,Saudi Arabia,Mexico,1,2,2021,Friendly
+478,Uruguay,Jamaica,2,2,2021,Qualifiers
+479,Netherlands,Panama,0,0,2021,Qualifiers
+480,New Zealand,Iran,0,2,2021,Qualifiers
+481,Chile,Japan,0,3,2021,Continental Cup
+482,Mexico,Chile,2,2,2021,Friendly
+483,Morocco,Senegal,1,1,2021,Continental Cup
+484,Canada,Mexico,4,4,2021,World Cup
+485,Egypt,Colombia,1,3,2021,Continental Cup
+486,Senegal,France,2,4,2021,Friendly
+487,New Zealand,England,0,2,2021,Friendly
+488,Austria,Canada,2,1,2021,Continental Cup
+489,Uruguay,Colombia,3,1,2021,Qualifiers
+490,New Zealand,Uruguay,0,4,2021,Continental Cup
+491,Paraguay,Senegal,0,1,2021,Qualifiers
+492,Jamaica,Saudi Arabia,1,3,2021,Continental Cup
+493,New Zealand,Ivory Coast,0,3,2021,Qualifiers
+494,Chile,Egypt,1,1,2021,Friendly
+495,France,Netherlands,3,0,2021,Friendly
+496,Portugal,Costa Rica,0,0,2021,Friendly
+497,Iraq,Paraguay,1,0,2021,Friendly
+498,Argentina,Turkey,6,0,2021,Continental Cup
+499,Saudi Arabia,Turkey,0,2,2021,Continental Cup
+500,Saudi Arabia,Costa Rica,1,0,2021,World Cup
+501,Peru,Paraguay,1,0,2021,Friendly
+502,Croatia,Ivory Coast,2,0,2021,Qualifiers
+503,France,Ghana,5,1,2021,Qualifiers
+504,Croatia,France,0,3,2021,Friendly
+505,Egypt,Colombia,0,1,2021,Qualifiers
+506,Costa Rica,Colombia,1,3,2021,Friendly
+507,Brazil,Uruguay,3,1,2021,Continental Cup
+508,Egypt,Spain,0,4,2021,Friendly
+509,South Korea,Brazil,0,2,2021,Qualifiers
+510,Ghana,Denmark,0,1,2021,Friendly
+511,Saudi Arabia,Spain,0,4,2021,World Cup
+512,Spain,Ecuador,1,0,2021,Qualifiers
+513,Nigeria,USA,0,2,2021,Qualifiers
+514,England,Peru,2,0,2021,Qualifiers
+515,Italy,Cameroon,2,1,2021,Friendly
+516,Algeria,Croatia,0,3,2021,Qualifiers
+517,Panama,France,0,3,2021,Qualifiers
+518,Ghana,Croatia,0,4,2021,Continental Cup
+519,Senegal,Algeria,2,0,2021,World Cup
+520,Mexico,Switzerland,0,1,2021,Qualifiers
+521,Netherlands,Panama,4,0,2021,Continental Cup
+522,Portugal,Tunisia,2,0,2021,Qualifiers
+523,Senegal,Iran,2,0,2021,Friendly
+524,New Zealand,Austria,0,1,2021,Continental Cup
+525,Iraq,Senegal,0,5,2021,Qualifiers
+526,Jamaica,Turkey,1,1,2021,Continental Cup
+527,Paraguay,Cameroon,2,2,2021,Qualifiers
+528,England,Jamaica,3,1,2021,Continental Cup
+529,Uruguay,Senegal,3,2,2021,Qualifiers
+530,Saudi Arabia,Germany,0,4,2021,Qualifiers
+531,Canada,Algeria,0,3,2021,Friendly
+532,Iran,Colombia,0,1,2021,Qualifiers
+533,Uzbekistan,Colombia,1,2,2021,Friendly
+534,Peru,Belgium,1,1,2021,Friendly
+535,Costa Rica,Portugal,1,3,2021,Continental Cup
+536,Mexico,Senegal,2,2,2021,Qualifiers
+537,Senegal,Iraq,1,1,2021,World Cup
+538,France,Senegal,3,0,2021,Continental Cup
+539,Colombia,Sweden,2,1,2021,Continental Cup
+540,Panama,Japan,1,1,2021,Continental Cup
+541,England,Denmark,2,1,2021,Qualifiers
+542,Qatar,New Zealand,1,0,2021,Continental Cup
+543,Ecuador,Croatia,2,3,2021,Qualifiers
+544,Canada,Switzerland,1,1,2021,Continental Cup
+545,Ivory Coast,Colombia,0,7,2021,Qualifiers
+546,Ghana,Saudi Arabia,1,3,2021,Friendly
+547,Argentina,South Korea,2,2,2021,Friendly
+548,Qatar,Panama,2,2,2021,Qualifiers
+549,Ivory Coast,Costa Rica,2,1,2021,Continental Cup
+550,USA,Germany,4,1,2021,Friendly
+551,USA,Iran,2,3,2021,Friendly
+552,Algeria,Iran,0,2,2021,Qualifiers
+553,Iraq,Paraguay,0,2,2021,Qualifiers
+554,Iraq,Saudi Arabia,0,0,2021,Qualifiers
+555,New Zealand,Chile,3,0,2021,Qualifiers
+556,Iraq,Denmark,0,2,2021,Qualifiers
+557,Chile,Algeria,3,1,2021,Continental Cup
+558,Peru,Turkey,0,3,2021,Friendly
+559,Iran,Spain,1,3,2021,World Cup
+560,Senegal,Australia,2,1,2021,Friendly
+561,Jamaica,Turkey,1,1,2022,Continental Cup
+562,Spain,Denmark,4,0,2022,Qualifiers
+563,Iran,Canada,0,3,2022,Qualifiers
+564,South Korea,Tunisia,1,0,2022,Qualifiers
+565,Saudi Arabia,Canada,2,0,2022,Qualifiers
+566,Saudi Arabia,Panama,2,2,2022,Friendly
+567,Austria,Chile,2,0,2022,Friendly
+568,Japan,Uzbekistan,5,0,2022,World Cup
+569,Italy,Colombia,0,1,2022,Continental Cup
+570,Netherlands,Mexico,0,0,2022,Friendly
+571,Turkey,Iraq,3,2,2022,Qualifiers
+572,Cameroon,Nigeria,1,1,2022,Qualifiers
+573,Italy,Denmark,2,1,2022,Continental Cup
+574,Iran,Ghana,2,1,2022,Continental Cup
+575,Costa Rica,Chile,2,1,2022,Friendly
+576,Brazil,Austria,1,0,2022,Qualifiers
+577,Egypt,Saudi Arabia,1,0,2022,World Cup
+578,New Zealand,South Korea,0,3,2022,Qualifiers
+579,Ivory Coast,Iraq,1,0,2022,Qualifiers
+580,Brazil,New Zealand,1,0,2022,Continental Cup
+581,Iraq,Sweden,1,1,2022,Qualifiers
+582,Senegal,Turkey,3,3,2022,Friendly
+583,Belgium,Denmark,1,0,2022,Qualifiers
+584,Algeria,Uzbekistan,2,0,2022,Qualifiers
+585,Senegal,Iran,2,1,2022,Continental Cup
+586,Qatar,Brazil,1,3,2022,World Cup
+587,Jamaica,Uruguay,2,1,2022,Qualifiers
+588,Jamaica,Croatia,0,3,2022,World Cup
+589,Ghana,South Korea,0,2,2022,World Cup
+590,Mexico,Panama,6,1,2022,Continental Cup
+591,Egypt,Belgium,0,4,2022,World Cup
+592,Mexico,Brazil,1,1,2022,Qualifiers
+593,Australia,Costa Rica,0,0,2022,Friendly
+594,Panama,South Korea,0,2,2022,Friendly
+595,Sweden,Netherlands,0,1,2022,Qualifiers
+596,Jamaica,Egypt,3,0,2022,Qualifiers
+597,Uruguay,Turkey,2,0,2022,Continental Cup
+598,South Korea,Qatar,2,0,2022,Continental Cup
+599,South Korea,Algeria,2,0,2022,Qualifiers
+600,Paraguay,Switzerland,1,3,2022,Continental Cup
+601,Jamaica,Iran,1,1,2022,Friendly
+602,Switzerland,Jamaica,2,2,2022,Qualifiers
+603,Senegal,Cameroon,2,1,2022,Qualifiers
+604,South Korea,Spain,0,1,2022,Continental Cup
+605,Belgium,Paraguay,3,0,2022,Friendly
+606,Uzbekistan,Poland,1,0,2022,Qualifiers
+607,France,Germany,1,0,2022,Friendly
+608,Panama,New Zealand,5,1,2022,Qualifiers
+609,South Korea,Jamaica,4,1,2022,Continental Cup
+610,Morocco,Netherlands,2,1,2022,Friendly
+611,Ghana,Ecuador,0,1,2022,Qualifiers
+612,Germany,Colombia,1,0,2022,Qualifiers
+613,Canada,Sweden,1,3,2022,Qualifiers
+614,New Zealand,Peru,3,3,2022,Qualifiers
+615,Portugal,Turkey,2,0,2022,Friendly
+616,Costa Rica,Spain,0,2,2022,Friendly
+617,England,Spain,1,2,2022,Continental Cup
+618,Jamaica,Australia,2,1,2022,Continental Cup
+619,Spain,Nigeria,1,0,2022,Friendly
+620,Sweden,England,0,4,2022,Qualifiers
+621,Turkey,USA,2,0,2022,Continental Cup
+622,Chile,Paraguay,1,0,2022,Qualifiers
+623,Egypt,New Zealand,5,0,2022,World Cup
+624,Ukraine,Paraguay,4,1,2022,Friendly
+625,South Korea,Tunisia,0,0,2022,Qualifiers
+626,Morocco,Cameroon,3,0,2022,Continental Cup
+627,Switzerland,Argentina,0,3,2022,Qualifiers
+628,Ivory Coast,USA,2,2,2022,Friendly
+629,Croatia,Ecuador,1,0,2022,Qualifiers
+630,Croatia,Netherlands,3,1,2022,Qualifiers
+631,Poland,Belgium,1,0,2022,World Cup
+632,Nigeria,Uruguay,1,1,2022,Friendly
+633,Switzerland,Ukraine,1,2,2022,Qualifiers
+634,Colombia,Paraguay,2,0,2022,Qualifiers
+635,Portugal,Spain,2,0,2022,Continental Cup
+636,France,South Korea,4,2,2022,Continental Cup
+637,South Korea,Saudi Arabia,3,0,2022,Qualifiers
+638,Paraguay,Ghana,1,2,2022,World Cup
+639,South Korea,Qatar,4,0,2022,Continental Cup
+640,Germany,Uzbekistan,4,0,2022,Continental Cup
+641,Brazil,USA,2,2,2022,Qualifiers
+642,Ghana,Denmark,1,1,2022,Friendly
+643,Iraq,Morocco,0,2,2022,Qualifiers
+644,England,Uzbekistan,0,2,2022,Qualifiers
+645,Iran,New Zealand,2,0,2022,Continental Cup
+646,Paraguay,Iraq,1,0,2022,Qualifiers
+647,Uruguay,Brazil,0,2,2022,Friendly
+648,Peru,Jamaica,1,3,2022,Friendly
+649,Denmark,Ghana,2,1,2022,Friendly
+650,Algeria,Turkey,1,1,2022,Qualifiers
+651,France,Morocco,2,1,2022,Friendly
+652,USA,Egypt,2,0,2022,Friendly
+653,Nigeria,Cameroon,0,1,2022,Friendly
+654,Japan,Italy,1,2,2022,Continental Cup
+655,Brazil,Netherlands,1,0,2022,Qualifiers
+656,USA,Jamaica,4,2,2022,Continental Cup
+657,Panama,Uzbekistan,0,2,2022,Friendly
+658,Belgium,Croatia,2,3,2022,World Cup
+659,Sweden,Brazil,1,1,2022,Qualifiers
+660,Cameroon,Brazil,0,1,2022,Friendly
+661,Egypt,Mexico,1,1,2022,World Cup
+662,Uzbekistan,Portugal,1,3,2022,Friendly
+663,Ecuador,Denmark,0,4,2022,Friendly
+664,Panama,Spain,0,2,2022,Qualifiers
+665,Tunisia,Algeria,0,3,2022,Friendly
+666,Senegal,Germany,0,1,2022,World Cup
+667,Canada,USA,1,2,2022,Friendly
+668,Jamaica,Spain,0,3,2022,Continental Cup
+669,Germany,Nigeria,2,0,2022,Qualifiers
+670,Uzbekistan,Panama,1,2,2022,Qualifiers
+671,Uruguay,Uzbekistan,1,0,2022,Qualifiers
+672,Belgium,Spain,2,1,2022,Qualifiers
+673,Costa Rica,Peru,3,1,2022,Qualifiers
+674,New Zealand,Panama,1,0,2022,Qualifiers
+675,Germany,Jamaica,1,1,2022,Qualifiers
+676,Brazil,Ukraine,3,0,2022,World Cup
+677,Argentina,Morocco,2,0,2022,Qualifiers
+678,Poland,Cameroon,1,1,2022,Qualifiers
+679,Saudi Arabia,Croatia,0,1,2022,Friendly
+680,Algeria,Colombia,0,4,2022,Qualifiers
+681,Morocco,Uzbekistan,2,1,2022,Qualifiers
+682,South Korea,Peru,4,0,2022,Friendly
+683,Uruguay,Costa Rica,1,1,2022,Continental Cup
+684,Japan,Iran,2,2,2022,Continental Cup
+685,New Zealand,Spain,0,1,2022,Qualifiers
+686,Qatar,Saudi Arabia,2,2,2022,Continental Cup
+687,Algeria,Uzbekistan,2,1,2022,Friendly
+688,Senegal,England,0,2,2022,Qualifiers
+689,Tunisia,Ecuador,1,0,2022,Qualifiers
+690,Chile,Mexico,1,1,2022,Continental Cup
+691,Paraguay,Algeria,0,2,2022,Qualifiers
+692,Panama,Ukraine,2,1,2022,Friendly
+693,Cameroon,Peru,2,1,2022,Continental Cup
+694,Colombia,Italy,4,2,2022,Qualifiers
+695,Senegal,New Zealand,4,1,2022,Qualifiers
+696,Costa Rica,Croatia,1,1,2022,Qualifiers
+697,Iraq,Portugal,0,2,2022,Qualifiers
+698,Egypt,Saudi Arabia,5,2,2022,Qualifiers
+699,Saudi Arabia,Uruguay,1,0,2022,Friendly
+700,Argentina,Ghana,7,2,2022,Qualifiers
+701,Paraguay,France,1,4,2023,Friendly
+702,Turkey,Costa Rica,1,2,2023,Qualifiers
+703,Chile,Germany,0,4,2023,Continental Cup
+704,South Korea,Chile,2,0,2023,Friendly
+705,Chile,Jamaica,0,1,2023,Qualifiers
+706,USA,Peru,1,1,2023,Qualifiers
+707,Tunisia,Australia,1,3,2023,Friendly
+708,Austria,Qatar,0,0,2023,Friendly
+709,Switzerland,Canada,1,1,2023,Qualifiers
+710,Ukraine,Mexico,1,0,2023,Friendly
+711,Iran,Ukraine,2,2,2023,Continental Cup
+712,Brazil,Iraq,5,0,2023,Continental Cup
+713,USA,Chile,1,0,2023,World Cup
+714,Egypt,Ghana,3,0,2023,Friendly
+715,Croatia,Australia,2,0,2023,Qualifiers
+716,Peru,England,0,6,2023,Qualifiers
+717,Spain,Nigeria,4,0,2023,Friendly
+718,Switzerland,Algeria,3,2,2023,Continental Cup
+719,Poland,Argentina,0,4,2023,Friendly
+720,France,Costa Rica,4,0,2023,Qualifiers
+721,Japan,Tunisia,1,1,2023,Friendly
+722,Peru,Iraq,0,2,2023,Continental Cup
+723,Switzerland,Turkey,2,2,2023,Qualifiers
+724,Poland,New Zealand,1,1,2023,Qualifiers
+725,Uruguay,England,0,1,2023,Qualifiers
+726,Iraq,France,1,3,2023,Continental Cup
+727,Ecuador,Costa Rica,2,2,2023,Qualifiers
+728,Denmark,Chile,7,0,2023,Qualifiers
+729,USA,Belgium,0,2,2023,Qualifiers
+730,Qatar,Italy,1,2,2023,Qualifiers
+731,Sweden,Denmark,0,3,2023,Qualifiers
+732,Peru,Qatar,1,2,2023,Qualifiers
+733,Costa Rica,Japan,0,2,2023,Friendly
+734,Australia,South Korea,0,0,2023,Qualifiers
+735,Ivory Coast,USA,0,1,2023,Qualifiers
+736,Sweden,Ivory Coast,1,1,2023,Friendly
+737,Japan,Senegal,0,0,2023,World Cup
+738,Qatar,Croatia,0,4,2023,Qualifiers
+739,Colombia,Belgium,1,2,2023,Friendly
+740,Italy,Germany,0,1,2023,Friendly
+741,Senegal,Denmark,0,0,2023,Qualifiers
+742,Uruguay,Denmark,1,0,2023,Friendly
+743,Cameroon,Turkey,0,3,2023,Qualifiers
+744,Algeria,Egypt,0,3,2023,Qualifiers
+745,Austria,Cameroon,2,2,2023,Continental Cup
+746,Denmark,Canada,3,0,2023,Qualifiers
+747,Peru,Qatar,0,3,2023,Qualifiers
+748,Senegal,Italy,0,2,2023,Continental Cup
+749,Ghana,Costa Rica,3,1,2023,Qualifiers
+750,Saudi Arabia,Cameroon,0,0,2023,Friendly
+751,Japan,Croatia,0,2,2023,Qualifiers
+752,Poland,Uzbekistan,3,0,2023,Friendly
+753,Egypt,England,0,5,2023,Continental Cup
+754,Algeria,Switzerland,1,3,2023,Friendly
+755,Panama,Netherlands,1,3,2023,World Cup
+756,Germany,Poland,2,0,2023,Continental Cup
+757,Germany,Costa Rica,4,1,2023,Continental Cup
+758,Iraq,Costa Rica,2,0,2023,Friendly
+759,England,Ghana,3,2,2023,Friendly
+760,Japan,Jamaica,2,0,2023,World Cup
+761,Egypt,Spain,0,3,2023,World Cup
+762,Turkey,Paraguay,2,2,2023,Qualifiers
+763,Senegal,Ukraine,2,1,2023,World Cup
+764,Turkey,Canada,4,1,2023,Qualifiers
+765,Tunisia,Argentina,1,1,2023,Qualifiers
+766,Denmark,Canada,0,1,2023,Qualifiers
+767,Iraq,Iran,1,2,2023,World Cup
+768,Jamaica,New Zealand,1,2,2023,Friendly
+769,Australia,Paraguay,3,1,2023,Continental Cup
+770,New Zealand,Spain,0,5,2023,Qualifiers
+771,England,Denmark,1,1,2023,Continental Cup
+772,Austria,Ivory Coast,4,0,2023,Qualifiers
+773,USA,England,0,0,2023,Qualifiers
+774,Colombia,Canada,0,0,2023,World Cup
+775,Canada,Germany,0,2,2023,Continental Cup
+776,Ivory Coast,Mexico,0,0,2023,Qualifiers
+777,Iran,Sweden,4,4,2023,Continental Cup
+778,Poland,France,1,3,2023,Friendly
+779,Nigeria,Argentina,1,1,2023,Qualifiers
+780,Japan,Algeria,2,0,2023,Qualifiers
+781,Argentina,Poland,3,1,2023,Qualifiers
+782,Saudi Arabia,Germany,2,1,2023,Continental Cup
+783,Croatia,USA,1,0,2023,Continental Cup
+784,Italy,Austria,0,0,2023,Continental Cup
+785,Panama,Costa Rica,0,3,2023,Qualifiers
+786,New Zealand,Ecuador,1,3,2023,Friendly
+787,Australia,Tunisia,2,0,2023,Friendly
+788,Italy,Costa Rica,2,0,2023,Qualifiers
+789,Australia,Ivory Coast,3,0,2023,Qualifiers
+790,Switzerland,Tunisia,1,2,2023,Friendly
+791,Italy,Iran,1,1,2023,Qualifiers
+792,Ukraine,Poland,5,2,2023,World Cup
+793,Algeria,Panama,4,0,2023,Qualifiers
+794,Iraq,Uruguay,1,0,2023,Qualifiers
+795,Cameroon,Turkey,0,1,2023,Qualifiers
+796,Uzbekistan,Ukraine,0,0,2023,Friendly
+797,Egypt,Germany,2,2,2023,Qualifiers
+798,Chile,Turkey,0,1,2023,Continental Cup
+799,Iran,Egypt,1,2,2023,Friendly
+800,Argentina,Ivory Coast,2,0,2023,Qualifiers
+801,Cameroon,USA,0,4,2023,Friendly
+802,Denmark,Chile,5,1,2023,Qualifiers
+803,South Korea,Netherlands,0,4,2023,World Cup
+804,Portugal,Costa Rica,4,0,2023,Qualifiers
+805,Cameroon,Uruguay,0,1,2023,Continental Cup
+806,Panama,Chile,3,1,2023,Qualifiers
+807,Argentina,Ivory Coast,3,1,2023,Friendly
+808,Belgium,Argentina,2,2,2023,Qualifiers
+809,Algeria,Germany,0,2,2023,Friendly
+810,Algeria,Netherlands,1,4,2023,Qualifiers
+811,Qatar,Colombia,1,2,2023,Qualifiers
+812,Ivory Coast,Turkey,1,2,2023,Qualifiers
+813,Uzbekistan,Morocco,2,3,2023,Continental Cup
+814,Saudi Arabia,England,1,2,2023,Qualifiers
+815,Japan,Ivory Coast,0,0,2023,Qualifiers
+816,Denmark,Croatia,3,2,2023,Qualifiers
+817,Austria,USA,3,1,2023,Qualifiers
+818,Croatia,Ukraine,6,0,2023,Friendly
+819,Senegal,Nigeria,2,0,2023,Qualifiers
+820,Netherlands,South Korea,1,0,2023,Qualifiers
+821,Croatia,Peru,3,1,2023,Qualifiers
+822,England,Chile,1,0,2023,Qualifiers
+823,Saudi Arabia,Iraq,2,3,2023,Qualifiers
+824,Panama,Canada,1,0,2023,World Cup
+825,Ecuador,Ivory Coast,1,1,2023,Friendly
+826,Mexico,Jamaica,3,0,2023,World Cup
+827,Germany,Sweden,1,0,2023,Qualifiers
+828,France,Qatar,2,0,2023,Continental Cup
+829,Portugal,Ecuador,5,1,2023,Qualifiers
+830,Nigeria,Ukraine,1,0,2023,Qualifiers
+831,Argentina,Mexico,4,0,2023,Qualifiers
+832,Switzerland,Senegal,2,0,2023,Friendly
+833,Saudi Arabia,Japan,0,0,2023,Qualifiers
+834,Denmark,Portugal,0,2,2023,Qualifiers
+835,Poland,Ecuador,1,3,2023,Qualifiers
+836,Austria,USA,0,0,2023,Friendly
+837,Italy,Australia,2,1,2023,Friendly
+838,England,Poland,3,1,2023,Friendly
+839,Ecuador,Iran,0,1,2023,Qualifiers
+840,Italy,Belgium,1,1,2023,World Cup
+841,South Korea,Algeria,1,0,2024,Friendly
+842,Ivory Coast,Portugal,1,6,2024,Continental Cup
+843,USA,Nigeria,4,2,2024,Qualifiers
+844,Colombia,Poland,2,0,2024,Continental Cup
+845,Saudi Arabia,Nigeria,0,0,2024,Continental Cup
+846,Belgium,Poland,1,0,2024,Qualifiers
+847,Austria,Spain,1,2,2024,Continental Cup
+848,Turkey,Ivory Coast,3,0,2024,Qualifiers
+849,Turkey,Croatia,0,1,2024,Qualifiers
+850,Denmark,Uzbekistan,0,0,2024,Qualifiers
+851,South Korea,Uruguay,2,2,2024,Friendly
+852,Morocco,Paraguay,4,0,2024,Continental Cup
+853,Austria,Iran,1,4,2024,Friendly
+854,Mexico,South Korea,1,2,2024,Qualifiers
+855,Senegal,Portugal,1,4,2024,Friendly
+856,Algeria,Costa Rica,3,1,2024,Qualifiers
+857,Morocco,Switzerland,0,3,2024,Qualifiers
+858,Turkey,Switzerland,2,1,2024,Friendly
+859,Uzbekistan,Egypt,0,1,2024,Friendly
+860,Senegal,Egypt,2,0,2024,Continental Cup
+861,Australia,Japan,0,4,2024,Qualifiers
+862,Denmark,Iran,0,1,2024,Continental Cup
+863,Poland,Denmark,1,2,2024,Continental Cup
+864,Iraq,Canada,1,2,2024,Continental Cup
+865,Brazil,Croatia,2,1,2024,Friendly
+866,Peru,Ecuador,0,1,2024,Friendly
+867,Egypt,Cameroon,1,2,2024,Friendly
+868,Portugal,Ghana,5,0,2024,Continental Cup
+869,Morocco,Senegal,4,0,2024,Friendly
+870,Iran,Argentina,0,4,2024,Friendly
+871,Uzbekistan,Ukraine,1,3,2024,Continental Cup
+872,Portugal,Japan,2,1,2024,Friendly
+873,Qatar,Denmark,0,0,2024,Qualifiers
+874,England,Belgium,0,2,2024,Qualifiers
+875,Argentina,Switzerland,3,0,2024,Friendly
+876,Japan,Cameroon,1,0,2024,Qualifiers
+877,Iran,Australia,0,0,2024,Continental Cup
+878,Iraq,Qatar,0,3,2024,World Cup
+879,Belgium,Ivory Coast,6,0,2024,Friendly
+880,USA,Switzerland,0,1,2024,World Cup
+881,Algeria,England,0,5,2024,Qualifiers
+882,Peru,Iraq,2,2,2024,Continental Cup
+883,Canada,Denmark,0,1,2024,Qualifiers
+884,Colombia,South Korea,3,2,2024,Friendly
+885,Ukraine,Belgium,1,4,2024,World Cup
+886,Portugal,Ivory Coast,4,0,2024,Continental Cup
+887,Ecuador,Brazil,0,1,2024,Continental Cup
+888,Nigeria,Portugal,2,1,2024,Qualifiers
+889,Uruguay,France,0,6,2024,Friendly
+890,Iraq,Peru,1,1,2024,Friendly
+891,Japan,Brazil,0,2,2024,World Cup
+892,Ivory Coast,Mexico,0,0,2024,World Cup
+893,England,Tunisia,6,2,2024,Continental Cup
+894,Denmark,Morocco,1,2,2024,Friendly
+895,Saudi Arabia,Uruguay,0,3,2024,Qualifiers
+896,Argentina,Uruguay,0,0,2024,Qualifiers
+897,Spain,South Korea,1,0,2024,Continental Cup
+898,Paraguay,Argentina,1,7,2024,Qualifiers
+899,Ukraine,Paraguay,3,1,2024,Friendly
+900,Portugal,Germany,1,1,2024,Friendly
+901,Ecuador,Saudi Arabia,4,3,2024,Continental Cup
+902,Argentina,Paraguay,2,2,2024,World Cup
+903,Canada,Costa Rica,0,2,2024,Friendly
+904,Netherlands,Paraguay,1,0,2024,Qualifiers
+905,Paraguay,Panama,2,1,2024,Friendly
+906,Panama,Croatia,0,2,2024,Qualifiers
+907,England,Senegal,3,0,2024,Qualifiers
+908,Uruguay,South Korea,0,0,2024,Friendly
+909,Saudi Arabia,Brazil,0,3,2024,Qualifiers
+910,Paraguay,Ghana,3,3,2024,Friendly
+911,Qatar,Chile,0,0,2024,Qualifiers
+912,Chile,Iraq,2,1,2024,Qualifiers
+913,Netherlands,Qatar,1,1,2024,Friendly
+914,Portugal,Italy,0,2,2024,Qualifiers
+915,Sweden,Spain,0,4,2024,Continental Cup
+916,Denmark,Spain,1,0,2024,Qualifiers
+917,Costa Rica,Belgium,0,0,2024,World Cup
+918,Denmark,Belgium,2,4,2024,Continental Cup
+919,Tunisia,New Zealand,2,1,2024,Qualifiers
+920,Canada,Portugal,1,2,2024,Qualifiers
+921,Germany,Spain,1,0,2024,Qualifiers
+922,Canada,Spain,0,2,2024,Qualifiers
+923,Uzbekistan,England,0,2,2024,Qualifiers
+924,Croatia,Austria,2,0,2024,Qualifiers
+925,Spain,Panama,3,0,2024,Qualifiers
+926,Croatia,Italy,0,2,2024,Continental Cup
+927,Japan,Argentina,1,3,2024,Qualifiers
+928,USA,Panama,1,0,2024,Friendly
+929,Argentina,Netherlands,0,2,2024,Friendly
+930,Spain,Iraq,0,0,2024,Continental Cup
+931,France,Colombia,4,0,2024,Qualifiers
+932,Ukraine,Colombia,0,2,2024,World Cup
+933,South Korea,Senegal,1,0,2024,Continental Cup
+934,Chile,Uruguay,0,2,2024,World Cup
+935,Turkey,Ukraine,2,0,2024,Friendly
+936,Austria,Brazil,0,1,2024,Friendly
+937,Brazil,Portugal,4,2,2024,Continental Cup
+938,Belgium,Peru,2,0,2024,Qualifiers
+939,Uzbekistan,Turkey,1,3,2024,Friendly
+940,Netherlands,France,1,3,2024,Continental Cup
+941,Portugal,Belgium,1,0,2024,Qualifiers
+942,Poland,Saudi Arabia,4,1,2024,World Cup
+943,Iran,Ivory Coast,1,0,2024,Qualifiers
+944,USA,England,0,3,2024,Friendly
+945,Costa Rica,England,0,1,2024,Qualifiers
+946,Ecuador,Portugal,0,3,2024,Continental Cup
+947,Senegal,Brazil,0,2,2024,Friendly
+948,Argentina,Panama,3,2,2024,Continental Cup
+949,Saudi Arabia,Uzbekistan,2,1,2024,Friendly
+950,Cameroon,England,0,5,2024,World Cup
+951,Costa Rica,Peru,1,3,2024,Friendly
+952,New Zealand,Morocco,0,4,2024,Friendly
+953,Qatar,Nigeria,1,0,2024,Friendly
+954,Algeria,Spain,1,0,2024,World Cup
+955,Mexico,Portugal,1,0,2024,Friendly
+956,Saudi Arabia,Italy,2,3,2024,Friendly
+957,Costa Rica,Ecuador,1,2,2024,Friendly
+958,Jamaica,Ivory Coast,0,1,2024,Qualifiers
+959,Ecuador,Sweden,0,0,2024,Qualifiers
+960,Belgium,Qatar,3,0,2024,Continental Cup
+961,Egypt,Costa Rica,1,1,2024,Friendly
+962,Morocco,New Zealand,2,0,2024,Qualifiers
+963,Netherlands,Spain,2,1,2024,Friendly
+964,Costa Rica,Austria,0,2,2024,Friendly
+965,Ivory Coast,New Zealand,0,2,2024,Friendly
+966,Netherlands,Peru,7,0,2024,Qualifiers
+967,Germany,Ukraine,3,0,2024,Friendly
+968,Poland,Switzerland,0,3,2024,Qualifiers
+969,Costa Rica,Chile,3,2,2024,Friendly
+970,Germany,Nigeria,0,0,2024,Qualifiers
+971,Chile,USA,0,3,2024,Continental Cup
+972,Algeria,Uruguay,1,4,2024,Friendly
+973,Uzbekistan,Ecuador,0,1,2024,Qualifiers
+974,Ecuador,Uzbekistan,1,0,2024,Qualifiers
+975,Canada,Argentina,1,2,2024,Friendly
+976,Denmark,Uruguay,2,0,2024,Qualifiers
+977,Senegal,Ivory Coast,4,0,2024,World Cup
+978,Tunisia,Belgium,0,1,2024,World Cup
+979,Ecuador,Morocco,0,1,2024,Qualifiers
+980,Uruguay,Senegal,3,2,2024,Continental Cup
+981,France,Uruguay,3,0,2025,Friendly
+982,South Korea,Algeria,1,2,2025,Continental Cup
+983,Ghana,Senegal,0,3,2025,Friendly
+984,Italy,Morocco,0,0,2025,Friendly
+985,Japan,Mexico,0,3,2025,Friendly
+986,Uzbekistan,Iraq,0,1,2025,Continental Cup
+987,Spain,Canada,5,0,2025,Qualifiers
+988,Ghana,Croatia,0,3,2025,Qualifiers
+989,South Korea,Sweden,1,0,2025,Continental Cup
+990,Senegal,Japan,1,1,2025,Continental Cup
+991,Australia,Netherlands,0,2,2025,Friendly
+992,Japan,Ecuador,1,0,2025,World Cup
+993,Chile,Ecuador,0,3,2025,Friendly
+994,Spain,Chile,1,0,2025,Continental Cup
+995,USA,France,0,3,2025,Continental Cup
+996,Ivory Coast,Belgium,1,1,2025,Qualifiers
+997,Senegal,Egypt,3,0,2025,Friendly
+998,South Korea,Australia,3,2,2025,Friendly
+999,Ghana,Nigeria,2,1,2025,World Cup
+1000,New Zealand,Nigeria,1,1,2025,Qualifiers
+1001,New Zealand,Brazil,2,7,2025,Friendly
+1002,Qatar,Germany,0,4,2025,Continental Cup
+1003,Uzbekistan,Netherlands,0,7,2025,Continental Cup
+1004,Colombia,Peru,1,0,2025,Friendly
+1005,Panama,Belgium,0,5,2025,Friendly
+1006,Sweden,Italy,0,1,2025,Qualifiers
+1007,Netherlands,Austria,4,2,2025,World Cup
+1008,Turkey,Paraguay,2,0,2025,Qualifiers
+1009,Saudi Arabia,Argentina,0,3,2025,World Cup
+1010,Switzerland,Croatia,1,3,2025,Friendly
+1011,Qatar,Belgium,0,1,2025,Friendly
+1012,Saudi Arabia,Turkey,1,0,2025,Friendly
+1013,Qatar,Switzerland,0,2,2025,Continental Cup
+1014,Nigeria,Italy,0,3,2025,Continental Cup
+1015,Germany,Costa Rica,2,0,2025,Friendly
+1016,Algeria,Ivory Coast,2,2,2025,Qualifiers
+1017,Tunisia,Panama,2,0,2025,Qualifiers
+1018,Senegal,USA,2,4,2025,Friendly
+1019,England,Jamaica,3,0,2025,World Cup
+1020,Poland,Chile,2,1,2025,Qualifiers
+1021,Japan,Morocco,0,4,2025,Continental Cup
+1022,Costa Rica,Argentina,0,3,2025,Qualifiers
+1023,Costa Rica,Netherlands,0,1,2025,Qualifiers
+1024,Peru,Switzerland,0,0,2025,Friendly
+1025,Egypt,Costa Rica,2,1,2025,Qualifiers
+1026,Paraguay,Ghana,0,1,2025,Qualifiers
+1027,Mexico,Peru,1,3,2025,Friendly
+1028,Italy,Jamaica,1,0,2025,World Cup
+1029,Egypt,Costa Rica,1,1,2025,Continental Cup
+1030,Poland,England,1,2,2025,World Cup
+1031,Cameroon,Switzerland,1,2,2025,Friendly
+1032,Austria,Algeria,2,2,2025,World Cup
+1033,Uruguay,Costa Rica,1,4,2025,Friendly
+1034,France,Uzbekistan,3,0,2025,Friendly
+1035,Canada,Denmark,0,1,2025,Friendly
+1036,Croatia,Senegal,2,0,2025,Qualifiers
+1037,Costa Rica,Egypt,0,3,2025,Continental Cup
+1038,Qatar,Croatia,0,0,2025,Qualifiers
+1039,Croatia,Netherlands,0,2,2025,Continental Cup
+1040,Tunisia,Mexico,3,1,2025,Qualifiers
+1041,Ghana,New Zealand,3,0,2025,Qualifiers
+1042,Colombia,France,0,3,2025,Friendly
+1043,Ghana,Argentina,0,4,2025,Friendly
+1044,Japan,Italy,2,1,2025,Friendly
+1045,Morocco,Denmark,0,1,2025,Qualifiers
+1046,Uzbekistan,Tunisia,0,1,2025,World Cup
+1047,Costa Rica,South Korea,2,2,2025,Qualifiers
+1048,Egypt,England,0,1,2025,World Cup
+1049,Belgium,Chile,4,0,2025,Friendly
+1050,Costa Rica,Nigeria,0,3,2025,Friendly
+1051,Saudi Arabia,Jamaica,0,0,2025,Qualifiers
+1052,Netherlands,Qatar,1,0,2025,Friendly
+1053,Ghana,Austria,2,2,2025,Qualifiers
+1054,France,New Zealand,4,1,2025,Qualifiers
+1055,Egypt,Australia,0,2,2025,Friendly
+1056,Ecuador,New Zealand,2,0,2025,Qualifiers
+1057,Egypt,Cameroon,0,1,2025,Qualifiers
+1058,Uzbekistan,Jamaica,0,1,2025,Continental Cup
+1059,Switzerland,Ivory Coast,3,0,2025,Qualifiers
+1060,Croatia,Saudi Arabia,0,0,2025,Qualifiers
+1061,Poland,Canada,1,0,2025,Qualifiers
+1062,Senegal,Iran,2,5,2025,Friendly
+1063,Algeria,Australia,0,0,2025,Continental Cup
+1064,Mexico,Sweden,0,3,2025,Continental Cup
+1065,Canada,Italy,2,2,2025,Qualifiers
+1066,Portugal,Cameroon,1,1,2025,Qualifiers
+1067,Japan,Canada,1,0,2025,Qualifiers
+1068,Spain,Netherlands,1,1,2025,Continental Cup
+1069,Ecuador,Costa Rica,3,0,2025,Continental Cup
+1070,Portugal,Panama,2,1,2025,World Cup
+1071,Sweden,Japan,2,2,2025,Qualifiers
+1072,Tunisia,Turkey,0,3,2025,Friendly
+1073,Colombia,Uzbekistan,1,1,2025,World Cup
+1074,Panama,USA,0,0,2025,World Cup
+1075,England,Peru,1,0,2025,World Cup
+1076,Nigeria,Chile,1,0,2025,Qualifiers
+1077,Colombia,New Zealand,0,0,2025,World Cup
+1078,Spain,Belgium,0,2,2025,Friendly
+1079,Colombia,Uruguay,2,1,2025,Qualifiers
+1080,Costa Rica,England,3,4,2025,Qualifiers
+1081,France,Canada,6,1,2025,Friendly
+1082,Ecuador,South Korea,0,0,2025,Qualifiers
+1083,Ukraine,Uzbekistan,6,0,2025,Continental Cup
+1084,Spain,Ukraine,1,1,2025,Qualifiers
+1085,South Korea,Nigeria,3,0,2025,Friendly
+1086,Uruguay,Cameroon,4,0,2025,Qualifiers
+1087,Canada,Uzbekistan,1,0,2025,Qualifiers
+1088,Switzerland,France,0,4,2025,Qualifiers
+1089,Ghana,Portugal,1,2,2025,Continental Cup
+1090,Uzbekistan,Saudi Arabia,0,3,2025,Friendly
+1091,Argentina,Australia,2,0,2025,Qualifiers
+1092,Ecuador,Paraguay,1,1,2025,Qualifiers
+1093,Uzbekistan,Spain,0,2,2025,Qualifiers
+1094,USA,Austria,1,1,2025,Continental Cup
+1095,Turkey,Japan,0,2,2025,Friendly
+1096,Spain,Brazil,2,1,2025,Qualifiers
+1097,Tunisia,Denmark,1,0,2025,Continental Cup
+1098,Denmark,Ukraine,1,0,2025,World Cup
+1099,Algeria,Argentina,0,5,2025,Friendly
+1100,Morocco,Costa Rica,4,0,2025,Friendly
+1101,Morocco,Portugal,4,1,2025,World Cup
+1102,Costa Rica,Poland,1,1,2025,Continental Cup
+1103,Croatia,Denmark,2,0,2025,Qualifiers
+1104,Senegal,Uruguay,1,0,2025,Friendly
+1105,Argentina,Qatar,1,0,2025,Friendly
+1106,USA,Tunisia,2,0,2025,Qualifiers
+1107,Australia,South Korea,3,1,2025,Continental Cup
+1108,Sweden,Jamaica,0,2,2025,Qualifiers
+1109,Morocco,Brazil,1,3,2025,Qualifiers
+1110,Spain,Austria,1,0,2025,Friendly
+1111,Morocco,Jamaica,4,1,2025,Qualifiers
+1112,South Korea,Ukraine,1,2,2025,Friendly
+1113,South Korea,Austria,3,2,2025,Qualifiers
+1114,Canada,Qatar,0,1,2025,Qualifiers
+1115,Tunisia,Ivory Coast,1,1,2025,Friendly
+1116,Cameroon,Algeria,2,2,2025,Continental Cup
+1117,Croatia,Panama,2,0,2025,Friendly
+1118,Austria,Croatia,0,6,2025,World Cup
+1119,Italy,Austria,1,1,2025,Continental Cup
+1120,Panama,Cameroon,0,2,2025,Continental Cup
+1121,Chile,Spain,1,1,2026,Friendly
+1122,Portugal,South Korea,1,0,2026,Qualifiers
+1123,Denmark,South Korea,0,2,2026,Qualifiers
+1124,Ukraine,Italy,0,2,2026,Qualifiers
+1125,Sweden,Saudi Arabia,3,1,2026,Qualifiers
+1126,England,Argentina,1,1,2026,Friendly
+1127,Ghana,Denmark,2,2,2026,Continental Cup
+1128,Uzbekistan,Sweden,0,1,2026,Friendly
+1129,Uzbekistan,Tunisia,0,2,2026,Continental Cup
+1130,Argentina,Austria,2,2,2026,Friendly
+1131,Austria,Switzerland,0,4,2026,World Cup
+1132,Austria,South Korea,1,2,2026,Qualifiers
+1133,France,Croatia,3,0,2026,Qualifiers
+1134,Mexico,Brazil,1,4,2026,Friendly
+1135,Sweden,Iraq,4,1,2026,Qualifiers
+1136,Ivory Coast,Ghana,2,1,2026,Continental Cup
+1137,Spain,Japan,2,0,2026,Qualifiers
+1138,Netherlands,Italy,1,2,2026,Continental Cup
+1139,Iraq,Qatar,0,2,2026,Friendly
+1140,Spain,Colombia,0,1,2026,Qualifiers
+1141,Italy,Iraq,5,0,2026,Continental Cup
+1142,Uruguay,Paraguay,1,2,2026,Continental Cup
+1143,Sweden,Paraguay,1,0,2026,Friendly
+1144,South Korea,Brazil,0,3,2026,Friendly
+1145,Senegal,Japan,0,3,2026,World Cup
+1146,Paraguay,Croatia,2,2,2026,Qualifiers
+1147,Saudi Arabia,USA,0,3,2026,Qualifiers
+1148,Netherlands,Ecuador,1,0,2026,Friendly
+1149,Saudi Arabia,Ecuador,0,0,2026,Qualifiers
+1150,Australia,Iraq,1,0,2026,Friendly
+1151,Brazil,Japan,1,0,2026,Qualifiers
+1152,Germany,Algeria,0,0,2026,Qualifiers
+1153,Ecuador,Netherlands,0,3,2026,Continental Cup
+1154,Ivory Coast,Nigeria,2,0,2026,Qualifiers
+1155,Portugal,Ivory Coast,6,0,2026,World Cup
+1156,Qatar,Panama,0,3,2026,Friendly
+1157,Poland,Argentina,1,5,2026,Friendly
+1158,Colombia,Japan,1,2,2026,Friendly
+1159,South Korea,Canada,2,1,2026,Continental Cup
+1160,Austria,Paraguay,0,0,2026,Continental Cup
+1161,Italy,Algeria,3,1,2026,Qualifiers
+1162,Austria,Panama,1,1,2026,Friendly
+1163,Colombia,Japan,2,1,2026,Friendly
+1164,Switzerland,Spain,0,1,2026,Continental Cup
+1165,Egypt,Jamaica,0,1,2026,Continental Cup
+1166,Germany,Turkey,1,0,2026,Qualifiers
+1167,Netherlands,Japan,2,2,2026,Qualifiers
+1168,Chile,Nigeria,2,2,2026,Friendly
+1169,USA,Mexico,1,0,2026,Friendly
+1170,Saudi Arabia,Portugal,2,4,2026,Friendly
+1171,Poland,Austria,2,0,2026,Continental Cup
+1172,Senegal,Ukraine,3,1,2026,Qualifiers
+1173,Austria,Jamaica,1,1,2026,Qualifiers
+1174,Italy,Ukraine,0,0,2026,Qualifiers
+1175,England,Australia,3,0,2026,World Cup
+1176,Algeria,Colombia,0,5,2026,Qualifiers
+1177,Belgium,Mexico,2,0,2026,Friendly
+1178,Croatia,Egypt,2,0,2026,Continental Cup
+1179,Italy,Paraguay,5,2,2026,Continental Cup
+1180,Austria,Algeria,6,2,2026,Friendly
+1181,Ghana,Croatia,0,0,2026,Continental Cup
+1182,Ivory Coast,Denmark,1,0,2026,Friendly
+1183,Nigeria,USA,1,0,2026,Qualifiers
+1184,Netherlands,Canada,3,0,2026,Friendly
+1185,Saudi Arabia,Netherlands,0,6,2026,Friendly
+1186,Austria,Paraguay,1,0,2026,World Cup
+1187,Peru,Iran,1,3,2026,Qualifiers
+1188,Peru,Egypt,0,2,2026,Qualifiers
+1189,Algeria,Ghana,1,0,2026,Friendly
+1190,Ecuador,Italy,3,1,2026,Friendly
+1191,Morocco,Ukraine,3,0,2026,Continental Cup
+1192,Ivory Coast,USA,1,2,2026,Friendly
+1193,Tunisia,South Korea,0,2,2026,Continental Cup
+1194,Ghana,Panama,2,1,2026,Friendly
+1195,Belgium,Italy,1,1,2026,Friendly
+1196,Uzbekistan,Germany,1,4,2026,Qualifiers
+1197,Colombia,Algeria,2,0,2026,Qualifiers
+1198,Egypt,Cameroon,3,1,2026,Qualifiers
+1199,Ghana,Germany,0,1,2026,Qualifiers
+1200,Argentina,Croatia,1,2,2026,Friendly
+1201,Croatia,Uzbekistan,4,0,2026,Qualifiers
+1202,Portugal,Australia,2,2,2026,Qualifiers
+1203,Uzbekistan,Nigeria,0,3,2026,Qualifiers
+1204,Netherlands,Ukraine,3,0,2026,Qualifiers
+1205,Denmark,Chile,2,0,2026,Qualifiers
+1206,Colombia,Austria,2,1,2026,Continental Cup
+1207,Egypt,Qatar,2,3,2026,Qualifiers
+1208,Germany,South Korea,1,0,2026,Qualifiers
+1209,Spain,Morocco,2,0,2026,Friendly
+1210,Iraq,Jamaica,1,2,2026,Friendly
+1211,Saudi Arabia,Switzerland,0,3,2026,Qualifiers
+1212,Croatia,Ukraine,2,0,2026,Friendly
+1213,Iran,Netherlands,0,2,2026,Qualifiers
+1214,Ukraine,England,0,2,2026,Friendly
+1215,Nigeria,Morocco,0,1,2026,World Cup
+1216,Croatia,France,0,1,2026,World Cup
+1217,Qatar,Egypt,0,1,2026,Friendly
+1218,France,Denmark,3,1,2026,Continental Cup
+1219,Argentina,Portugal,2,1,2026,Friendly
+1220,Australia,Croatia,1,1,2026,Continental Cup
+1221,Panama,Ivory Coast,1,4,2026,Qualifiers
+1222,Uruguay,Colombia,2,1,2026,Qualifiers
+1223,Sweden,Croatia,1,1,2026,Friendly
+1224,Switzerland,Ecuador,2,1,2026,Friendly
+1225,Portugal,Senegal,2,1,2026,Qualifiers
+1226,Ukraine,Ghana,1,0,2026,Qualifiers
+1227,Netherlands,Croatia,3,2,2026,Qualifiers
+1228,Poland,Spain,0,0,2026,Friendly
+1229,Iraq,Costa Rica,1,3,2026,Qualifiers
+1230,Ghana,Canada,2,3,2026,Continental Cup
+1231,Iran,Croatia,0,2,2026,Qualifiers
+1232,Costa Rica,Mexico,0,2,2026,Continental Cup
+1233,Italy,Cameroon,3,1,2026,Qualifiers
+1234,South Korea,Algeria,2,0,2026,Qualifiers
+1235,Uzbekistan,Qatar,1,0,2026,Qualifiers
+1236,Paraguay,Canada,1,1,2026,Qualifiers
+1237,Ivory Coast,Germany,1,1,2026,Continental Cup
+1238,Colombia,Mexico,3,1,2026,Qualifiers
+1239,Australia,Senegal,3,1,2026,Friendly
+1240,Egypt,Denmark,0,1,2026,Friendly
+1241,Iraq,Panama,0,2,2026,Friendly
+1242,Australia,Iran,1,4,2026,Continental Cup
+1243,Algeria,Tunisia,1,1,2026,Qualifiers
+1244,Chile,Japan,0,3,2026,World Cup
+1245,Poland,Saudi Arabia,1,0,2026,Friendly
+1246,Senegal,Morocco,0,1,2026,Qualifiers
+1247,Argentina,Peru,3,0,2026,Qualifiers
+1248,Portugal,Algeria,3,1,2026,Qualifiers
+1249,Netherlands,Iraq,5,0,2026,Qualifiers
+1250,Costa Rica,Portugal,0,3,2026,Qualifiers
+1251,Belgium,Austria,3,0,2026,Friendly
+1252,Spain,Croatia,3,1,2026,Qualifiers
+1253,Cameroon,Croatia,0,2,2026,Continental Cup
+1254,Paraguay,Italy,1,2,2026,Friendly
+1255,Netherlands,Iran,3,0,2026,Qualifiers
+1256,Senegal,Algeria,4,0,2026,Qualifiers
+1257,Costa Rica,Nigeria,0,1,2026,Qualifiers
+1258,Cameroon,Germany,0,6,2026,Qualifiers
+1259,Spain,Brazil,2,1,2026,Continental Cup
+1260,Saudi Arabia,Senegal,2,1,2026,Friendly

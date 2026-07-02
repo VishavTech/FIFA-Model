@@ -1,0 +1,6 @@
+{
+  "name": "FIFA World Cup 2026 Winner Prediction",
+  "description": "An end-to-end Machine Learning pipeline and Flask web application predicting the winner of the 2026 World Cup using Random Forest and tournament simulation.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

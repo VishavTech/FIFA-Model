@@ -1,0 +1,242 @@
+[
+    {
+        "team": "France",
+        "simulation_wins": 200,
+        "winning_probability": 0.2
+    },
+    {
+        "team": "Brazil",
+        "simulation_wins": 181,
+        "winning_probability": 0.181
+    },
+    {
+        "team": "Spain",
+        "simulation_wins": 170,
+        "winning_probability": 0.17
+    },
+    {
+        "team": "Argentina",
+        "simulation_wins": 97,
+        "winning_probability": 0.097
+    },
+    {
+        "team": "England",
+        "simulation_wins": 96,
+        "winning_probability": 0.096
+    },
+    {
+        "team": "Belgium",
+        "simulation_wins": 91,
+        "winning_probability": 0.091
+    },
+    {
+        "team": "Portugal",
+        "simulation_wins": 58,
+        "winning_probability": 0.058
+    },
+    {
+        "team": "Germany",
+        "simulation_wins": 29,
+        "winning_probability": 0.029
+    },
+    {
+        "team": "Netherlands",
+        "simulation_wins": 18,
+        "winning_probability": 0.018
+    },
+    {
+        "team": "Croatia",
+        "simulation_wins": 14,
+        "winning_probability": 0.014
+    },
+    {
+        "team": "Morocco",
+        "simulation_wins": 12,
+        "winning_probability": 0.012
+    },
+    {
+        "team": "Italy",
+        "simulation_wins": 10,
+        "winning_probability": 0.01
+    },
+    {
+        "team": "Uruguay",
+        "simulation_wins": 8,
+        "winning_probability": 0.008
+    },
+    {
+        "team": "Colombia",
+        "simulation_wins": 7,
+        "winning_probability": 0.007
+    },
+    {
+        "team": "Japan",
+        "simulation_wins": 3,
+        "winning_probability": 0.003
+    },
+    {
+        "team": "South Korea",
+        "simulation_wins": 3,
+        "winning_probability": 0.003
+    },
+    {
+        "team": "USA",
+        "simulation_wins": 2,
+        "winning_probability": 0.002
+    },
+    {
+        "team": "Senegal",
+        "simulation_wins": 1,
+        "winning_probability": 0.001
+    },
+    {
+        "team": "Switzerland",
+        "simulation_wins": 0,
+        "winning_probability": 0.0
+    },
+    {
+        "team": "Denmark",
+        "simulation_wins": 0,
+        "winning_probability": 0.0
+    },
+    {
+        "team": "Iran",
+        "simulation_wins": 0,
+        "winning_probability": 0.0
+    },
+    {
+        "team": "Mexico",
+        "simulation_wins": 0,
+        "winning_probability": 0.0
+    },
+    {
+        "team": "Australia",
+        "simulation_wins": 0,
+        "winning_probability": 0.0
+    },
+    {
+        "team": "Sweden",
+        "simulation_wins": 0,
+        "winning_probability": 0.0
+    },
+    {
+        "team": "Ukraine",
+        "simulation_wins": 0,
+        "winning_probability": 0.0
+    },
+    {
+        "team": "Turkey",
+        "simulation_wins": 0,
+        "winning_probability": 0.0
+    },
+    {
+        "team": "Austria",
+        "simulation_wins": 0,
+        "winning_probability": 0.0
+    },
+    {
+        "team": "Ecuador",
+        "simulation_wins": 0,
+        "winning_probability": 0.0
+    },
+    {
+        "team": "Poland",
+        "simulation_wins": 0,
+        "winning_probability": 0.0
+    },
+    {
+        "team": "Nigeria",
+        "simulation_wins": 0,
+        "winning_probability": 0.0
+    },
+    {
+        "team": "Egypt",
+        "simulation_wins": 0,
+        "winning_probability": 0.0
+    },
+    {
+        "team": "Tunisia",
+        "simulation_wins": 0,
+        "winning_probability": 0.0
+    },
+    {
+        "team": "Algeria",
+        "simulation_wins": 0,
+        "winning_probability": 0.0
+    },
+    {
+        "team": "Cameroon",
+        "simulation_wins": 0,
+        "winning_probability": 0.0
+    },
+    {
+        "team": "Canada",
+        "simulation_wins": 0,
+        "winning_probability": 0.0
+    },
+    {
+        "team": "Costa Rica",
+        "simulation_wins": 0,
+        "winning_probability": 0.0
+    },
+    {
+        "team": "Panama",
+        "simulation_wins": 0,
+        "winning_probability": 0.0
+    },
+    {
+        "team": "Jamaica",
+        "simulation_wins": 0,
+        "winning_probability": 0.0
+    },
+    {
+        "team": "Saudi Arabia",
+        "simulation_wins": 0,
+        "winning_probability": 0.0
+    },
+    {
+        "team": "Qatar",
+        "simulation_wins": 0,
+        "winning_probability": 0.0
+    },
+    {
+        "team": "Iraq",
+        "simulation_wins": 0,
+        "winning_probability": 0.0
+    },
+    {
+        "team": "Uzbekistan",
+        "simulation_wins": 0,
+        "winning_probability": 0.0
+    },
+    {
+        "team": "Ivory Coast",
+        "simulation_wins": 0,
+        "winning_probability": 0.0
+    },
+    {
+        "team": "Ghana",
+        "simulation_wins": 0,
+        "winning_probability": 0.0
+    },
+    {
+        "team": "Chile",
+        "simulation_wins": 0,
+        "winning_probability": 0.0
+    },
+    {
+        "team": "Paraguay",
+        "simulation_wins": 0,
+        "winning_probability": 0.0
+    },
+    {
+        "team": "Peru",
+        "simulation_wins": 0,
+        "winning_probability": 0.0
+    },
+    {
+        "team": "New Zealand",
+        "simulation_wins": 0,
+        "winning_probability": 0.0
+    }
+]

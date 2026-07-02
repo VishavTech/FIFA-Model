@@ -1,0 +1,698 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FIFA World Cup 2026 Winner Prediction - ML Portfolio</title>
+    <!-- Tailwind CSS Play CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        .font-mono {
+            font-family: 'JetBrains Mono', monospace;
+        }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-900 min-h-screen flex flex-col justify-between">
+
+    <div class="w-full max-w-7xl mx-auto flex-1 flex flex-col min-h-screen bg-white shadow-sm border-x border-slate-200">
+        <!-- Header: Project Identity -->
+        <header class="bg-white border-b border-slate-200 px-8 py-6 flex flex-col md:flex-row justify-between items-center gap-4">
+            <div>
+                <h1 class="text-2xl font-bold text-slate-800 tracking-tight flex items-center gap-2.5">
+                    <span class="p-1.5 bg-blue-600 text-white rounded-lg shadow-sm">
+                        <i data-lucide="trophy" class="w-5 h-5"></i>
+                    </span>
+                    FIFA World Cup 2026 Winner Prediction
+                </h1>
+                <p class="text-sm text-slate-500 mt-1">Machine Learning Workflow & Predictive Analytics Dashboard</p>
+            </div>
+            <div class="flex flex-wrap items-center gap-3">
+                <div class="px-3 py-1 bg-green-50 text-green-700 text-xs font-semibold rounded-full border border-green-200 font-mono" id="header-best-model-badge">
+                    Model: Loading...
+                </div>
+                <div class="px-3 py-1 bg-blue-50 text-blue-700 text-xs font-semibold rounded-full border border-blue-200 font-mono flex items-center gap-1.5">
+                    <span class="w-1.5 h-1.5 rounded-full bg-blue-500 animate-pulse"></span>
+                    Status: Ready for Prediction
+                </div>
+            </div>
+        </header>
+
+        <main class="flex-1 flex flex-col lg:flex-row overflow-hidden min-h-[600px]">
+            <!-- Sidebar: Project Structure & Navigation -->
+            <aside class="w-full lg:w-64 bg-slate-100 border-r border-slate-200 p-6 flex flex-col gap-6">
+                <!-- Navigation -->
+                <section>
+                    <h3 class="text-[10px] uppercase tracking-widest font-bold text-slate-400 mb-4 px-2">Navigation Menu</h3>
+                    <nav class="space-y-1.5" id="nav-tabs">
+                        <button onclick="switchTab('overview')" id="tab-overview" class="w-full flex items-center gap-3 px-3 py-2.5 text-sm font-semibold rounded-xl transition-all duration-150 bg-blue-50 text-blue-700 border-l-4 border-l-blue-600">
+                            <i data-lucide="book-open" class="w-4 h-4"></i>
+                            Project Overview
+                        </button>
+                        <button onclick="switchTab('model')" id="tab-model" class="w-full flex items-center gap-3 px-3 py-2.5 text-sm font-medium rounded-xl transition-all duration-150 text-slate-600 hover:bg-slate-50 hover:text-slate-900">
+                            <i data-lucide="brain" class="w-4 h-4"></i>
+                            Model Performance
+                        </button>
+                        <button onclick="switchTab('simulation')" id="tab-simulation" class="w-full flex items-center gap-3 px-3 py-2.5 text-sm font-medium rounded-xl transition-all duration-150 text-slate-600 hover:bg-slate-50 hover:text-slate-900">
+                            <i data-lucide="line-chart" class="w-4 h-4"></i>
+                            Tournament Simulator
+                        </button>
+                        <button onclick="switchTab('match')" id="tab-match" class="w-full flex items-center gap-3 px-3 py-2.5 text-sm font-medium rounded-xl transition-all duration-150 text-slate-600 hover:bg-slate-50 hover:text-slate-900">
+                            <i data-lucide="swords" class="w-4 h-4"></i>
+                            Head-to-Head Predictor
+                        </button>
+                    </nav>
+                </section>
+
+                <!-- Project Structure (Professional Engineering Showcase) -->
+                <section class="border-t border-slate-200 pt-6">
+                    <h3 class="text-[10px] uppercase tracking-widest font-bold text-slate-400 mb-4 px-2">Project Structure</h3>
+                    <ul class="text-xs space-y-2.5 font-mono text-slate-600 px-2 leading-relaxed">
+                        <li class="flex items-center gap-2"><span class="text-blue-500">📁</span> data/</li>
+                        <li class="flex items-center gap-2 pl-4">📂 processed/</li>
+                        <li class="flex items-center gap-2 pl-4">📂 raw/</li>
+                        <li class="flex items-center gap-2"><span class="text-blue-500">📁</span> src/</li>
+                        <li class="flex items-center gap-2 pl-4">📄 data_preprocessing.py</li>
+                        <li class="flex items-center gap-2 pl-4 text-blue-700 font-semibold italic">📄 train_model.py</li>
+                        <li class="flex items-center gap-2"><span class="text-blue-500">📁</span> models/</li>
+                        <li class="flex items-center gap-2"><span class="text-blue-500">📁</span> outputs/</li>
+                        <li class="flex items-center gap-2">📄 app.py</li>
+                        <li class="flex items-center gap-2">📄 README.md</li>
+                    </ul>
+                </section>
+
+                <!-- Environment Specifications -->
+                <section class="mt-auto border-t border-slate-200 pt-6">
+                    <div class="bg-white p-4 rounded-xl border border-slate-200 shadow-sm">
+                        <p class="text-[10px] uppercase font-bold text-slate-400 mb-2">Environment Specs</p>
+                        <div class="text-xs text-slate-600 space-y-1.5 font-mono">
+                            <p class="flex justify-between"><span>Python</span> <span class="font-semibold text-slate-800">3.10</span></p>
+                            <p class="flex justify-between"><span>Scikit-Learn</span> <span class="font-semibold text-slate-800">1.2.x</span></p>
+                            <p class="flex justify-between"><span>Pandas</span> <span class="font-semibold text-slate-800">2.0.x</span></p>
+                        </div>
+                    </div>
+                </section>
+            </aside>
+
+            <!-- Content Panel -->
+            <section class="flex-1 p-8 bg-slate-50 overflow-y-auto">
+                
+                <!-- Tab 1: Overview Panel -->
+                <div id="panel-overview" class="tab-panel space-y-6">
+                    <div class="bg-white border border-slate-200 rounded-xl p-6 shadow-sm">
+                        <h2 class="text-xl font-bold text-slate-800 mb-4 tracking-tight">Project Objective & Architecture</h2>
+                        <p class="text-slate-600 leading-relaxed text-sm mb-4">
+                            The goal of this project is to develop an end-to-end predictive machine learning model to estimate the champion of the <strong>FIFA World Cup 2026</strong>. Under the new tournament format, 48 teams will participate. By collecting, preprocessing, and engineering features for teams, players, and team managers, we train classification models to predict match-level outcomes and execute a tournament-wide <strong>Monte Carlo simulation</strong> to find the overall winning probabilities.
+                        </p>
+                        <div class="grid grid-cols-1 md:grid-cols-3 gap-4 my-6">
+                            <div class="bg-slate-50 p-4 rounded-xl border border-slate-150 flex items-center gap-3">
+                                <div class="p-2 bg-blue-50 text-blue-700 rounded-lg"><i data-lucide="database" class="w-5 h-5"></i></div>
+                                <div>
+                                    <div class="text-[10px] text-slate-400 font-bold uppercase tracking-wide">Total Teams Modeled</div>
+                                    <div class="text-lg font-bold text-slate-800">48 Countries</div>
+                                </div>
+                            </div>
+                            <div class="bg-slate-50 p-4 rounded-xl border border-slate-150 flex items-center gap-3">
+                                <div class="p-2 bg-purple-50 text-purple-700 rounded-lg"><i data-lucide="users" class="w-5 h-5"></i></div>
+                                <div>
+                                    <div class="text-[10px] text-slate-400 font-bold uppercase tracking-wide">Aggregated Players</div>
+                                    <div class="text-lg font-bold text-slate-800">720 Profiles</div>
+                                </div>
+                            </div>
+                            <div class="bg-slate-50 p-4 rounded-xl border border-slate-150 flex items-center gap-3">
+                                <div class="p-2 bg-emerald-50 text-emerald-700 rounded-lg"><i data-lucide="shield" class="w-5 h-5"></i></div>
+                                <div>
+                                    <div class="text-[10px] text-slate-400 font-bold uppercase tracking-wide">Match Datasets</div>
+                                    <div class="text-lg font-bold text-slate-800">1,200 Records</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Pipeline Diagram and Workflow -->
+                    <div class="bg-white border border-slate-200 rounded-xl p-6 shadow-sm">
+                        <h3 class="text-lg font-bold text-slate-800 mb-4 tracking-tight">Machine Learning Workflow</h3>
+                        <div class="space-y-4">
+                            <div class="flex items-start gap-4">
+                                <div class="font-mono text-xs font-bold text-blue-600 bg-blue-50 w-6 h-6 rounded-full flex items-center justify-center border border-blue-200 shrink-0 mt-1">1</div>
+                                <div class="border-b border-slate-100 pb-3 w-full">
+                                    <h4 class="text-sm font-semibold text-slate-900">Data Collection (Team, Player & Manager Stats)</h4>
+                                    <p class="text-xs text-slate-500 mt-1">Collects raw historical World Cup data, squad ratings, ages, market values, and managers' win percentages to capture a comprehensive portrait of team strength.</p>
+                                </div>
+                            </div>
+                            <div class="flex items-start gap-4">
+                                <div class="font-mono text-xs font-bold text-blue-600 bg-blue-50 w-6 h-6 rounded-full flex items-center justify-center border border-blue-200 shrink-0 mt-1">2</div>
+                                <div class="border-b border-slate-100 pb-3 w-full">
+                                    <h4 class="text-sm font-semibold text-slate-900">Feature Engineering (Difference Modeling & Scaling)</h4>
+                                    <p class="text-xs text-slate-500 mt-1">Instead of raw values, matches are represented by symmetric relative differences (e.g., <code>rank_diff = Team A Rank - Team B Rank</code>) and standardized using <code>StandardScaler</code> to allow gradient models to converge efficiently.</p>
+                                </div>
+                            </div>
+                            <div class="flex items-start gap-4">
+                                <div class="font-mono text-xs font-bold text-blue-600 bg-blue-50 w-6 h-6 rounded-full flex items-center justify-center border border-blue-200 shrink-0 mt-1">3</div>
+                                <div class="border-b border-slate-100 pb-3 w-full">
+                                    <h4 class="text-sm font-semibold text-slate-900">Model Training & Validation</h4>
+                                    <p class="text-xs text-slate-500 mt-1">Compares Logistic Regression, Decision Tree, Random Forest, and Gradient Boosting Classifiers. Uses 5-Fold Cross-Validation on the historical matches to guard against overfitting.</p>
+                                </div>
+                            </div>
+                            <div class="flex items-start gap-4">
+                                <div class="font-mono text-xs font-bold text-blue-600 bg-blue-50 w-6 h-6 rounded-full flex items-center justify-center border border-blue-200 shrink-0 mt-1">4</div>
+                                <div class="w-full">
+                                    <h4 class="text-sm font-semibold text-slate-900">Tournament Simulation (Monte Carlo Simulation)</h4>
+                                    <p class="text-xs text-slate-500 mt-1">Uses the trained model's match win/loss predictions to run 1,000 simulations of the actual 2026 group stage and knockout bracket, aggregating frequencies to map team-level winning probabilities.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Clean Folder Structure Display -->
+                    <div class="bg-white border border-slate-200 rounded-xl p-6 shadow-sm">
+                        <h3 class="text-lg font-bold text-slate-800 mb-2 tracking-tight">Project Directory Structure</h3>
+                        <p class="text-xs text-slate-400 mb-4">Clean, modular project layouts reflect professional production-ready engineering standards:</p>
+                        <pre class="bg-slate-900 text-slate-300 text-[11px] font-mono p-4 rounded-xl leading-relaxed overflow-x-auto">
+FIFA_World_Cup_Prediction/
+├── data/
+│   ├── raw/               # raw CSV files of player stats, managers, historical world cups
+│   └── processed/         # aggregated team profile datasets & training files
+├── src/
+│   ├── data_preprocessing.py   # synthetic data generation & sanitization
+│   ├── feature_engineering.py  # difference feature modeling & scaler preservation
+│   ├── train_model.py          # classifier training & cross-validation metrics
+│   ├── predict.py              # tournament bracket and Monte Carlo simulation
+│   └── evaluation.py           # confusion matrix, ROC-AUC, and feature importance plotting
+├── models/                     # serialized scaler.joblib & best_model.joblib file
+├── outputs/                    # metrics.json, plots, and simulation results
+├── templates/                  # Flask HTML frontend files
+├── app.py                      # Flask web dashboard and predicting API routes
+├── main.py                     # ML pipeline orchestration entry-point
+└── requirements.txt            # Python dependencies (pandas, scikit-learn, flask)</pre>
+                    </div>
+                </div>
+
+                <!-- Tab 2: Model Performance -->
+                <div id="panel-model" class="tab-panel hidden space-y-6">
+                    <div class="bg-white border border-slate-200 rounded-xl p-6 shadow-sm">
+                        <h2 class="text-xl font-bold text-slate-800 mb-3 tracking-tight">Machine Learning Model Comparison</h2>
+                        <p class="text-slate-500 text-sm leading-relaxed mb-6">
+                            Below is the real benchmarking table from evaluating four distinct machine learning classifiers on the historical international test dataset (20% holdout split):
+                        </p>
+                        
+                        <div class="overflow-x-auto border border-slate-200 rounded-xl">
+                            <table class="w-full text-left border-collapse text-sm">
+                                <thead>
+                                    <tr class="bg-slate-50 text-slate-500 font-semibold border-b border-slate-200">
+                                        <th class="p-3.5 pl-5">Model Name</th>
+                                        <th class="p-3.5">Accuracy</th>
+                                        <th class="p-3.5">Precision</th>
+                                        <th class="p-3.5">Recall</th>
+                                        <th class="p-3.5">F1-Score</th>
+                                        <th class="p-3.5 pr-5">5-Fold CV Accuracy</th>
+                                    </tr>
+                                </thead>
+                                <tbody class="divide-y divide-slate-200 font-mono text-slate-700" id="model-comparison-tbody">
+                                    <!-- Populated via Javascript -->
+                                    <tr class="text-slate-400">
+                                        <td colspan="6" class="p-5 text-center">Loading training statistics...</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+
+                    <!-- Evaluation Plots Grid -->
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                        <!-- ROC Curve -->
+                        <div class="bg-white border border-slate-200 rounded-xl p-6 shadow-sm">
+                            <h3 class="text-sm font-bold text-slate-800 mb-3 flex items-center gap-1.5 border-b border-slate-100 pb-2">
+                                <i data-lucide="activity" class="w-4 h-4 text-orange-500"></i>
+                                Receiver Operating Characteristic (ROC-AUC)
+                            </h3>
+                            <div class="bg-slate-50 rounded-xl overflow-hidden border border-slate-100 flex items-center justify-center p-2 min-h-[300px]">
+                                <img src="/outputs/roc_curve.png" alt="ROC Curve" class="max-w-full h-auto object-contain rounded-lg shadow-sm" onerror="this.onerror=null; this.src='https://placehold.co/400x300?text=ROC+Curve+Not+Generated'">
+                            </div>
+                            <p class="text-xs text-slate-500 leading-relaxed mt-3">
+                                The ROC curve illustrates the balance between True Positive Rate and False Positive Rate. A high Area Under the Curve (AUC) indicates robust prediction across classification thresholds.
+                            </p>
+                        </div>
+                        
+                        <!-- Confusion Matrix -->
+                        <div class="bg-white border border-slate-200 rounded-xl p-6 shadow-sm">
+                            <h3 class="text-sm font-bold text-slate-800 mb-3 flex items-center gap-1.5 border-b border-slate-100 pb-2">
+                                <i data-lucide="grid" class="w-4 h-4 text-blue-500"></i>
+                                Model Confusion Matrix
+                            </h3>
+                            <div class="bg-slate-50 rounded-xl overflow-hidden border border-slate-100 flex items-center justify-center p-2 min-h-[300px]">
+                                <img src="/outputs/confusion_matrix.png" alt="Confusion Matrix" class="max-w-full h-auto object-contain rounded-lg shadow-sm" onerror="this.onerror=null; this.src='https://placehold.co/400x300?text=Confusion+Matrix+Not+Generated'">
+                            </div>
+                            <p class="text-xs text-slate-500 leading-relaxed mt-3">
+                                The confusion matrix displays the accuracy of win predictions. Diagonal elements represent correct predictions (True Negatives & True Positives), mapping precision directly.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Feature Importance Map -->
+                    <div class="bg-white border border-slate-200 rounded-xl p-6 shadow-sm">
+                        <h3 class="text-sm font-bold text-slate-800 mb-4 flex items-center gap-1.5 border-b border-slate-100 pb-2">
+                            <i data-lucide="bar-chart-2" class="w-4 h-4 text-blue-600"></i>
+                            Model Feature Importance Map
+                        </h3>
+                        <div class="bg-slate-50 rounded-xl overflow-hidden border border-slate-100 flex items-center justify-center p-4 min-h-[350px]">
+                            <img src="/outputs/feature_importance.png" alt="Feature Importance" class="max-w-5xl w-full h-auto object-contain rounded-lg shadow-sm" onerror="this.onerror=null; this.src='https://placehold.co/600x350?text=Feature+Importance+Not+Generated'">
+                        </div>
+                        <p class="text-xs text-slate-500 leading-relaxed mt-3">
+                            This plot reveals which factors are most critical in determining the winner of an international match. In our models, variables such as <strong>average player overall rating difference</strong>, <strong>FIFA rank differences</strong>, and <strong>squad value difference</strong> emerge as key drivers.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Tab 3: Tournament Simulator Results -->
+                <div id="panel-simulation" class="tab-panel hidden space-y-6">
+                    <div class="bg-white border border-slate-200 rounded-xl p-6 shadow-sm">
+                        <div class="flex flex-col md:flex-row justify-between items-start md:items-center gap-4 mb-6">
+                            <div>
+                                <h2 class="text-xl font-bold text-slate-800 tracking-tight">Monte Carlo Tournament Leaderboard</h2>
+                                <p class="text-slate-400 text-xs mt-0.5">Winning probability aggregated across 1,000 full tournament simulations</p>
+                            </div>
+                            <button onclick="triggerSimulation()" class="bg-blue-600 hover:bg-blue-700 text-white font-semibold text-sm px-4 py-2.5 rounded-xl flex items-center gap-2 shadow-md shadow-blue-100 transition-all duration-150">
+                                <i data-lucide="refresh-cw" class="w-4 h-4" id="sim-spinner"></i>
+                                Re-run Simulation (1k Runs)
+                            </button>
+                        </div>
+
+                        <!-- Top Champion Banner -->
+                        <div id="champion-banner" class="bg-gradient-to-r from-amber-50 to-orange-50 border border-amber-200 rounded-xl p-6 mb-6 flex flex-col md:flex-row justify-between items-center gap-4 shadow-sm relative overflow-hidden">
+                            <div class="absolute -right-4 -top-4 opacity-5 text-8xl text-orange-400 font-bold pointer-events-none">🏆</div>
+                            <div class="flex items-center gap-4">
+                                <div class="p-3 bg-amber-500 text-white rounded-xl shadow-md">
+                                    <i data-lucide="crown" class="w-8 h-8"></i>
+                                </div>
+                                <div>
+                                    <div class="text-[10px] uppercase tracking-wider text-amber-700 font-bold">Predicted Champion (Most Likely)</div>
+                                    <div class="text-2xl font-bold text-slate-800" id="predicted-winner-name">Loading...</div>
+                                    <p class="text-xs text-slate-500 font-medium mt-0.5">Won the highest number of simulated tournament finals</p>
+                                </div>
+                            </div>
+                            <div class="text-right">
+                                <div class="text-[10px] text-slate-400 uppercase font-bold tracking-wider font-mono">Winning Probability</div>
+                                <div class="text-3xl font-black text-amber-600 font-mono" id="predicted-winner-prob">--%</div>
+                            </div>
+                        </div>
+
+                        <!-- Leaderboard table -->
+                        <div class="bg-white border border-slate-200 rounded-xl overflow-hidden">
+                            <div class="p-4 border-b border-slate-100 bg-slate-50 flex justify-between items-center">
+                                <h3 class="text-xs font-bold uppercase tracking-wider text-slate-400">All 48 Participating Teams</h3>
+                                <span class="text-xs font-mono text-slate-400">Sorted by probability</span>
+                            </div>
+                            <div class="divide-y divide-slate-100 max-h-[500px] overflow-y-auto" id="simulation-list">
+                                <!-- Populated via JavaScript -->
+                                <div class="p-5 text-center text-slate-400">Loading simulations...</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tab 4: Head-to-Head Predictor -->
+                <div id="panel-match" class="tab-panel hidden space-y-6">
+                    <div class="bg-white border border-slate-200 rounded-xl p-6 shadow-sm">
+                        <h2 class="text-xl font-bold text-slate-800 mb-2 tracking-tight">Interactive Head-to-Head Match Predictor</h2>
+                        <p class="text-slate-400 text-xs mb-6">Select any two qualified countries and run the trained machine learning model to estimate win, draw, and loss probabilities.</p>
+                        
+                        <div class="grid grid-cols-1 md:grid-cols-7 items-center gap-4 p-6 bg-slate-50 rounded-xl border border-slate-150">
+                            <!-- Team A Selector -->
+                            <div class="md:col-span-3 space-y-2">
+                                <label class="text-[10px] font-bold uppercase tracking-wider text-slate-400 block">Team A (Home/Neutral)</label>
+                                <select id="team-a-select" class="w-full bg-white border border-slate-200 px-4 py-3 rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-500 font-semibold text-slate-700 text-sm shadow-sm">
+                                    <!-- Options populated via JS -->
+                                </select>
+                            </div>
+                            
+                            <!-- VS divider -->
+                            <div class="md:col-span-1 text-center font-bold text-slate-400 font-mono text-lg py-2">
+                                VS
+                            </div>
+                            
+                            <!-- Team B Selector -->
+                            <div class="md:col-span-3 space-y-2">
+                                <label class="text-[10px] font-bold uppercase tracking-wider text-slate-400 block">Team B (Away/Neutral)</label>
+                                <select id="team-b-select" class="w-full bg-white border border-slate-200 px-4 py-3 rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-500 font-semibold text-slate-700 text-sm shadow-sm">
+                                    <!-- Options populated via JS -->
+                                </select>
+                            </div>
+                        </div>
+
+                        <!-- Usability Toast Container for validations instead of standard alerts -->
+                        <div id="matchup-error" class="hidden p-4 bg-rose-50 text-rose-700 border border-rose-150 rounded-xl text-sm font-medium mt-4 flex items-center gap-2.5">
+                            <i data-lucide="alert-circle" class="w-4 h-4 text-rose-500 shrink-0"></i>
+                            <span id="matchup-error-text">Please select two different national teams for head-to-head prediction.</span>
+                        </div>
+
+                        <div class="flex justify-center mt-6">
+                            <button onclick="predictMatchup()" class="bg-blue-600 hover:bg-blue-700 text-white font-semibold text-sm px-8 py-3.5 rounded-xl shadow-lg shadow-blue-100 flex items-center gap-2 transition-all duration-150">
+                                <i data-lucide="sparkles" class="w-4 h-4"></i>
+                                Predict Matchup Probability
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Prediction Results (Hidden by default, shown after click) -->
+                    <div id="prediction-results-card" class="hidden bg-white border border-slate-200 rounded-xl p-6 shadow-md space-y-6">
+                        <h3 class="text-md font-bold text-slate-800 text-center border-b border-slate-100 pb-3 uppercase tracking-wide">Prediction Output</h3>
+                        
+                        <!-- Visual Probability bar -->
+                        <div class="space-y-3">
+                            <div class="flex justify-between text-[10px] font-bold uppercase tracking-wider text-slate-400 px-1">
+                                <span id="res-team-a-label">Team A Win</span>
+                                <span>Draw</span>
+                                <span id="res-team-b-label">Team B Win</span>
+                            </div>
+                            <div class="h-8 w-full rounded-full bg-slate-100 flex overflow-hidden shadow-inner font-mono text-xs font-bold text-white text-center">
+                                <div id="bar-win-a" class="bg-blue-600 transition-all duration-500 flex items-center justify-center overflow-hidden" style="width: 40%">40%</div>
+                                <div id="bar-draw" class="bg-slate-400 transition-all duration-500 flex items-center justify-center border-x border-white/20 overflow-hidden" style="width: 26%">26%</div>
+                                <div id="bar-win-b" class="bg-emerald-600 transition-all duration-500 flex items-center justify-center overflow-hidden" style="width: 34%">34%</div>
+                            </div>
+                        </div>
+
+                        <!-- Side by Side Stats comparison -->
+                        <div class="space-y-4 pt-4">
+                            <h4 class="text-xs font-bold text-slate-400 uppercase tracking-widest text-center border-b border-slate-100 pb-2">Side-by-Side Attribute Matrix</h4>
+                            
+                            <div class="space-y-1.5" id="stats-comparison-rows">
+                                <!-- Populated dynamically by JS -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+        </main>
+
+        <!-- Footer Bar: Dynamic Evaluation Metrics -->
+        <footer class="bg-slate-800 text-white px-8 py-5 flex flex-col md:flex-row items-center justify-between gap-6 border-t border-slate-700">
+            <div class="flex flex-wrap gap-8 md:gap-12 justify-center md:justify-start">
+                <div>
+                    <p class="text-[10px] uppercase font-bold text-slate-400 tracking-wider">Accuracy</p>
+                    <p class="text-xl font-mono text-emerald-400 font-black" id="footer-accuracy">0.0000</p>
+                </div>
+                <div>
+                    <p class="text-[10px] uppercase font-bold text-slate-400 tracking-wider">F1 Score</p>
+                    <p class="text-xl font-mono text-blue-400 font-black" id="footer-f1">0.0000</p>
+                </div>
+                <div>
+                    <p class="text-[10px] uppercase font-bold text-slate-400 tracking-wider">Precision</p>
+                    <p class="text-xl font-mono text-purple-400 font-black" id="footer-precision">0.0000</p>
+                </div>
+                <div>
+                    <p class="text-[10px] uppercase font-bold text-slate-400 tracking-wider">Recall</p>
+                    <p class="text-xl font-mono text-orange-400 font-black" id="footer-recall">0.0000</p>
+                </div>
+            </div>
+            <div class="text-center md:text-right">
+                <p class="text-[10px] text-slate-400 font-medium uppercase tracking-wider mb-1">Project Repository</p>
+                <span class="text-xs font-mono bg-slate-700 px-3 py-1.5 rounded-lg text-slate-300 border border-slate-600 block sm:inline-block">github.com/fresher-ml/fifa-2026-ml</span>
+            </div>
+        </footer>
+    </div>
+
+    <!-- JS Client Logic -->
+    <script>
+        // Global cached data
+        let modelComparison = {};
+        let simulationResults = [];
+        let teamsList = [];
+
+        // Tab Switching
+        function switchTab(tabId) {
+            // Hide all panels
+            document.querySelectorAll('.tab-panel').forEach(panel => panel.classList.add('hidden'));
+            
+            // Remove active style from all tabs and set simple hover/gray look
+            document.querySelectorAll('#nav-tabs button').forEach(btn => {
+                btn.className = "w-full flex items-center gap-3 px-3 py-2.5 text-sm font-medium rounded-xl transition-all duration-150 text-slate-600 hover:bg-slate-50 hover:text-slate-900";
+            });
+
+            // Show current panel
+            document.getElementById(`panel-${tabId}`).classList.remove('hidden');
+            
+            // Highlight current tab button with clean professional highlight
+            document.getElementById(`tab-${tabId}`).className = "w-full flex items-center gap-3 px-3 py-2.5 text-sm font-semibold rounded-xl transition-all duration-150 bg-blue-50 text-blue-700 border-l-4 border-l-blue-600";
+        }
+
+        // Initialize App data
+        window.addEventListener('DOMContentLoaded', () => {
+            lucide.createIcons();
+            loadModelComparison();
+            loadSimulationResults();
+            loadTeamsSelector();
+            loadBestModel();
+        });
+
+        // Load Best Model Info Dynamically
+        function loadBestModel() {
+            fetch('/api/best_model')
+                .then(res => res.json())
+                .then(data => {
+                    const modelName = data.model_name;
+                    const acc = (data.metrics.accuracy * 100).toFixed(1);
+                    
+                    // Header Badge
+                    document.getElementById('header-best-model-badge').innerText = `Model: ${modelName} (${acc}% Accuracy)`;
+                    
+                    // Footer Numbers
+                    document.getElementById('footer-accuracy').innerText = data.metrics.accuracy.toFixed(4);
+                    document.getElementById('footer-f1').innerText = data.metrics.f1_score.toFixed(4);
+                    document.getElementById('footer-precision').innerText = data.metrics.precision.toFixed(4);
+                    document.getElementById('footer-recall').innerText = data.metrics.recall.toFixed(4);
+                })
+                .catch(err => {
+                    console.error('Error loading best model stats:', err);
+                });
+        }
+
+        // Load Model metrics
+        function loadModelComparison() {
+            fetch('/api/model_comparison')
+                .then(res => res.json())
+                .then(data => {
+                    modelComparison = data;
+                    const tbody = document.getElementById('model-comparison-tbody');
+                    tbody.innerHTML = '';
+                    
+                    Object.entries(data).forEach(([name, metrics]) => {
+                        // Highlight best model or ensemble
+                        const isBest = name.includes("Logistic Regression") || name.includes("Random Forest") || name.includes("Gradient");
+                        const tr = document.createElement('tr');
+                        tr.className = `hover:bg-slate-50/80 transition-colors ${isBest ? 'bg-blue-50/40 text-blue-900 font-semibold border-l-4 border-l-blue-600' : 'text-slate-700'}`;
+                        tr.innerHTML = `
+                            <td class="p-3.5 pl-5 font-sans">${name} ${isBest ? '👑' : ''}</td>
+                            <td class="p-3.5">${(metrics.accuracy * 100).toFixed(1)}%</td>
+                            <td class="p-3.5">${(metrics.precision * 100).toFixed(1)}%</td>
+                            <td class="p-3.5">${(metrics.recall * 100).toFixed(1)}%</td>
+                            <td class="p-3.5">${(metrics.f1_score * 100).toFixed(1)}%</td>
+                            <td class="p-3.5 pr-5">${(metrics.cv_mean_accuracy * 100).toFixed(1)}% (±${(metrics.cv_std * 100).toFixed(1)}%)</td>
+                        `;
+                        tbody.appendChild(tr);
+                    });
+                })
+                .catch(err => console.error('Error loading model metrics:', err));
+        }
+
+        // Load simulation lists
+        function loadSimulationResults() {
+            fetch('/api/simulation_results')
+                .then(res => res.json())
+                .then(data => {
+                    simulationResults = data;
+                    
+                    // Set Champion banner
+                    if (data && data.length > 0) {
+                        const champ = data[0];
+                        document.getElementById('predicted-winner-name').innerText = champ.team;
+                        document.getElementById('predicted-winner-prob').innerText = (champ.winning_probability * 100).toFixed(1) + '%';
+                    }
+
+                    const listContainer = document.getElementById('simulation-list');
+                    listContainer.innerHTML = '';
+
+                    data.forEach((item, idx) => {
+                        const probabilityPercentage = (item.winning_probability * 100).toFixed(2) + '%';
+                        
+                        const itemDiv = document.createElement('div');
+                        itemDiv.className = "flex items-center justify-between p-4 hover:bg-slate-50 transition-all";
+                        itemDiv.innerHTML = `
+                            <div class="flex items-center gap-3">
+                                <span class="font-mono text-xs text-slate-400 font-bold w-6 text-center">${idx + 1}</span>
+                                <div class="font-semibold text-slate-800">${item.team}</div>
+                            </div>
+                            <div class="flex items-center gap-4 font-mono text-sm">
+                                <div class="text-xs text-slate-400 hidden sm:block">${item.simulation_wins} final wins</div>
+                                <div class="w-24 bg-slate-100 rounded-full h-2 overflow-hidden hidden md:block">
+                                    <div class="bg-blue-600 h-full" style="width: ${item.winning_probability * 100}%"></div>
+                                </div>
+                                <div class="font-bold text-slate-950 w-16 text-right">${probabilityPercentage}</div>
+                            </div>
+                        `;
+                        listContainer.appendChild(itemDiv);
+                    });
+                })
+                .catch(err => console.error('Error loading simulation results:', err));
+        }
+
+        // Run Monte Carlo Trigger
+        function triggerSimulation() {
+            const spinner = document.getElementById('sim-spinner');
+            spinner.classList.add('animate-spin');
+            
+            fetch('/api/run_simulation')
+                .then(res => res.json())
+                .then(data => {
+                    spinner.classList.remove('animate-spin');
+                    loadSimulationResults();
+                })
+                .catch(err => {
+                    spinner.classList.remove('animate-spin');
+                    console.error('Error triggering simulation:', err);
+                });
+        }
+
+        // Load Selectors
+        function loadTeamsSelector() {
+            fetch('/api/teams')
+                .then(res => res.json())
+                .then(data => {
+                    teamsList = data;
+                    const selA = document.getElementById('team-a-select');
+                    const selB = document.getElementById('team-b-select');
+                    
+                    selA.innerHTML = '';
+                    selB.innerHTML = '';
+
+                    data.forEach((team, idx) => {
+                        const optA = document.createElement('option');
+                        optA.value = team;
+                        optA.text = team;
+                        const optB = document.createElement('option');
+                        optB.value = team;
+                        optB.text = team;
+
+                        // Default selections: select Argentina and France
+                        if (team === "Argentina") optA.selected = true;
+                        if (team === "France") optB.selected = true;
+
+                        selA.appendChild(optA);
+                        selB.appendChild(optB);
+                    });
+                })
+                .catch(err => console.error('Error loading team list:', err));
+        }
+
+        // Run matchup prediction
+        function predictMatchup() {
+            const tA = document.getElementById('team-a-select').value;
+            const tB = document.getElementById('team-b-select').value;
+            const errorBanner = document.getElementById('matchup-error');
+
+            if (tA === tB) {
+                errorBanner.classList.remove('hidden');
+                document.getElementById('prediction-results-card').classList.add('hidden');
+                return;
+            } else {
+                errorBanner.classList.add('hidden');
+            }
+
+            fetch(`/api/predict_match?team_a=${encodeURIComponent(tA)}&team_b=${encodeURIComponent(tB)}`)
+                .then(res => res.json())
+                .then(data => {
+                    // Show result container
+                    const resCard = document.getElementById('prediction-results-card');
+                    resCard.classList.remove('hidden');
+
+                    // Set labels
+                    document.getElementById('res-team-a-label').innerText = tA + " Win";
+                    document.getElementById('res-team-b-label').innerText = tB + " Win";
+
+                    // Update Probability Progress bars
+                    const pA = (data.p_win_a * 100).toFixed(1) + '%';
+                    const pDraw = (data.p_draw * 100).toFixed(1) + '%';
+                    const pB = (data.p_win_b * 100).toFixed(1) + '%';
+
+                    const barA = document.getElementById('bar-win-a');
+                    barA.style.width = pA;
+                    barA.innerText = pA;
+
+                    const barDraw = document.getElementById('bar-draw');
+                    barDraw.style.width = pDraw;
+                    barDraw.innerText = pDraw;
+
+                    const barB = document.getElementById('bar-win-b');
+                    barB.style.width = pB;
+                    barB.innerText = pB;
+
+                    // Build Attribute Matrix table rows
+                    const matrixContainer = document.getElementById('stats-comparison-rows');
+                    matrixContainer.innerHTML = '';
+
+                    const stats = [
+                        { label: 'Current FIFA Ranking', key: 'fifa_ranking', suffix: '', invert: true },
+                        { label: 'Historical WC Titles', key: 'world_cup_titles', suffix: ' wins', invert: false },
+                        { label: 'Squad Market Value', key: 'squad_value_euro_million', suffix: ' M€', invert: false },
+                        { label: 'Avg Player Overall Rating', key: 'avg_player_rating', suffix: ' pts', invert: false },
+                        { label: 'Key Forward Attack Strength', key: 'attack_rating', suffix: ' pts', invert: false },
+                        { label: 'Key Defense Strength', key: 'defense_rating', suffix: ' pts', invert: false },
+                        { label: 'Historical Goals Scored', key: 'goals_scored_per_match', suffix: ' gls/m', invert: false },
+                        { label: 'Manager Coaching Experience', key: 'manager_experience_years', suffix: ' yrs', invert: false },
+                        { label: 'Manager Overall Win Rate', key: 'manager_win_rate', suffix: '%', invert: false, isPercent: true }
+                    ];
+
+                    const statsA = data.team_a_stats;
+                    const statsB = data.team_b_stats;
+
+                    stats.forEach(st => {
+                        let valA = statsA[st.key];
+                        let valB = statsB[st.key];
+                        
+                        // Handle decimals and formats
+                        let valADisplay = valA;
+                        let valBDisplay = valB;
+                        if (typeof valA === 'number' && !Number.isInteger(valA)) {
+                            valADisplay = valA.toFixed(1);
+                            valBDisplay = valB.toFixed(1);
+                        }
+                        if (st.isPercent) {
+                            valADisplay = (valA * 100).toFixed(1);
+                            valBDisplay = (valB * 100).toFixed(1);
+                        }
+
+                        // Determine better value for visual highlighting
+                        let aIsBetter = false;
+                        if (st.invert) {
+                            aIsBetter = valA < valB; // For FIFA ranks, lower value is better
+                        } else {
+                            aIsBetter = valA > valB; // Higher is better
+                        }
+
+                        const rowDiv = document.createElement('div');
+                        rowDiv.className = "grid grid-cols-7 items-center text-sm py-2 px-3 hover:bg-slate-50 rounded-lg border-b border-slate-100 transition-all";
+                        rowDiv.innerHTML = `
+                            <div class="col-span-2 text-left font-mono font-bold ${aIsBetter ? 'text-blue-600' : 'text-slate-500'}">
+                                ${valADisplay}${st.suffix} ${aIsBetter ? '▲' : ''}
+                            </div>
+                            <div class="col-span-3 text-center text-xs font-semibold text-slate-500">
+                                ${st.label}
+                            </div>
+                            <div class="col-span-2 text-right font-mono font-bold ${!aIsBetter && valA !== valB ? 'text-emerald-600' : 'text-slate-500'}">
+                                ${!aIsBetter && valA !== valB ? '▲ ' : ''}${valBDisplay}${st.suffix}
+                            </div>
+                        `;
+                        matrixContainer.appendChild(rowDiv);
+                    });
+                })
+                .catch(err => console.error('Error running matchup prediction:', err));
+        }
+    </script>
+</body>
+</html>
